@@ -1,0 +1,90 @@
+entry_begin
+uniqueid 2017_oscars
+version jan_23
+datetime 2017 11 28 5 8 0
+comment January 23 to February 27
+pollstatus coming
+statusdisplayed Coming in late January!
+title Oscars 2017
+subtitle Best picture, actress, actor, screenplay
+articlegen generate-article-standard
+headlinegen generate-headline-standard
+
+questioncount 4
+questioncounttext 4 questions (picture, actress, actor, screenplay)
+
+headline Our Oscars poll is coming soon!
+article Soon after the Oscar nominations have been announced (which happens January 23), you will be able to vote on your favorite (and less-favorite) movies, actresses, actors, and screenplays.  #Oscars
+
+title-question-1 Best picture
+subtitle-question-1 Which is your favorite, second-favorite, etc. picture?
+choicetype-question-1 movie
+choicetypeplural-question-1 movies
+choicecount-question-1 12
+choicename-question-1-choice-1 Aaaaa
+choicename-question-1-choice-2 Bbbbb
+choicename-question-1-choice-3 Ccccc
+choicename-question-1-choice-4 Ddddd
+choicename-question-1-choice-5 Eeeee
+choicename-question-1-choice-6 Fffff
+choicename-question-1-choice-7 Ggggg
+choicename-question-1-choice-8 Hhhhh
+choicename-question-1-choice-9 Iiiii
+choicename-question-1-choice-10 Jjjjj
+choicename-question-1-choice-11 Kkkkk
+choicename-question-1-choice-12 Lllll
+
+title-question-2 Best actress
+subtitle-question-2 Which is your favorite, second-favorite, etc. actress?
+choicetype-question-2 actress
+choicetypeplural-question-2 actresses
+choicecount-question-2 12
+choicename-question-2-choice-1 Aaaaa
+choicename-question-2-choice-2 Bbbbb
+choicename-question-2-choice-3 Ccccc
+choicename-question-2-choice-4 Ddddd
+choicename-question-2-choice-5 Eeeee
+choicename-question-2-choice-6 Fffff
+choicename-question-2-choice-7 Ggggg
+choicename-question-2-choice-8 Hhhhh
+choicename-question-2-choice-9 Iiiii
+choicename-question-2-choice-10 Jjjjj
+choicename-question-2-choice-11 Kkkkk
+choicename-question-2-choice-12 Lllll
+
+title-question-3 Best actor
+subtitle-question-3 Which is your favorite, second-favorite, etc. actor?
+choicetype-question-3 actor
+choicetypeplural-question-3 actors
+choicecount-question-3 12
+choicename-question-3-choice-1 Aaaaa
+choicename-question-3-choice-2 Bbbbb
+choicename-question-3-choice-3 Ccccc
+choicename-question-3-choice-4 Ddddd
+choicename-question-3-choice-5 Eeeee
+choicename-question-3-choice-6 Fffff
+choicename-question-3-choice-7 Ggggg
+choicename-question-3-choice-8 Hhhhh
+choicename-question-3-choice-9 Iiiii
+choicename-question-3-choice-10 Jjjjj
+choicename-question-3-choice-11 Kkkkk
+choicename-question-3-choice-12 Lllll
+
+title-question-4 Best screenplay (original or adapted)
+subtitle-question-4 Which is your favorite, second-favorite, etc. screenplay?
+choicetype-question-4 screenplay
+choicetypeplural-question-4 screenplays
+choicecount-question-4 12
+choicename-question-4-choice-1 Aaaaa
+choicename-question-4-choice-2 Bbbbb
+choicename-question-4-choice-3 Ccccc
+choicename-question-4-choice-4 Ddddd
+choicename-question-4-choice-5 Eeeee
+choicename-question-4-choice-6 Fffff
+choicename-question-4-choice-7 Ggggg
+choicename-question-4-choice-8 Hhhhh
+choicename-question-4-choice-9 Iiiii
+choicename-question-4-choice-10 Jjjjj
+choicename-question-4-choice-11 Kkkkk
+choicename-question-4-choice-12 Lllll
+entry_end

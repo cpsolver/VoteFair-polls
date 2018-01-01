@@ -1,0 +1,11 @@
+ambee expand-text template-line-start-file-no-national-polls expanded-json-content-national-poll-buttons amenn
+ambee expand-text template-json-content-begin expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-national-poll-buttons amenn
+ambee expand-text template-json-content-no-national-polls expanded-text amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee append-text-no-space expanded-text expanded-json-content-national-poll-buttons amenn
+ambee expand-text template-json-content-no-national-polls expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-national-poll-buttons amenn
+ambee expand-text template-json-content-end expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-national-poll-buttons amenn
+ambee clear-phrase expanded-json-content-all-polls amenn

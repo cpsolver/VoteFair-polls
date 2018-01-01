@@ -1,0 +1,36 @@
+ambee put-into-phrase language-choice  en  amenn
+
+combee ****
+ambee copy-text character-space string-paragraphbreakhere-with-spaces amenn
+ambee append-text-no-space string-paragraphbreakhere string-paragraphbreakhere-with-spaces amenn
+ambee append-text-no-space character-space string-paragraphbreakhere-with-spaces amenn
+ambee copy-text character-space string-sentencebreak-with-spaces amenn
+ambee append-text-no-space string-sentencebreak string-sentencebreak-with-spaces amenn
+ambee append-text-no-space character-space string-sentencebreak-with-spaces amenn
+**** comenn
+
+ambee copy-text path-to-dashdef-local dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-dashdef-local dashrep-path-prefix-for-file-writing amenn
+ambee delete-file ambee filename-container-json-poll-files amenn amenn
+
+ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-writing amenn
+ambee copy-from-file-to-phrase ambee filename-list-of-national-poll-id-names amenn list-of-national-poll-id-names amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase list-of-national-poll-id-names amenn amenn
+ambee generate-json-content-all-national-polls amenn
+ambee if-else amenn
+ambee generate-json-content-no-national-polls amenn
+ambee if-end amenn
+
+ambee copy-text path-to-dashdef-local dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-dashdef-local dashrep-path-prefix-for-file-writing amenn
+ambee copy-from-phrase-append-to-file expanded-json-content-national-poll-buttons ambee filename-container-json-poll-files amenn amenn
+ambee copy-from-phrase-append-to-file expanded-json-content-all-polls ambee filename-container-json-poll-files amenn amenn
+
+
+combee **** debugging code: 
+ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
+ambee put-listed-phrase-definitions-into-phrase list-of-all-dashrep-phrases all-definitions amenn
+ambee copy-from-phrase-append-to-file all-definitions ambee filename-container-json-poll-files amenn amenn
+**** comenn

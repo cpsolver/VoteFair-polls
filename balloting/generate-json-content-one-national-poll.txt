@@ -1,0 +1,63 @@
+ambee copy-text word-to-use-in-handler poll-button-number amenn
+ambee copy-word-at-position list-of-national-poll-id-names poll-id-name ambee poll-button-number amenn amenn
+ambee copy-word-at-position list-of-row-numbers-in-fill-sequence row-number ambee poll-button-number amenn amenn
+ambee copy-word-at-position list-of-column-numbers-in-fill-sequence column-number ambee poll-button-number amenn amenn
+ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-writing amenn
+ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
+ambee expand-text template-filename-poll-article filename-poll-article amenn
+ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn list-of-poll-ids-found amenn
+ambee copy-text path-to-dashdef-local dashrep-path-prefix-for-file-writing amenn
+ambee expand-text template-line-start-file-copy-of-poll-specifications-file expanded-text amenn
+ambee copy-from-phrase-append-to-file expanded-text ambee filename-accumulated-poll-specification-files amenn amenn
+ambee copy-append-file-to-file ambee filename-poll-specifications amenn ambee filename-accumulated-poll-specification-files amenn amenn
+ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-writing amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase list-of-poll-ids-found amenn amenn
+ambee copy-text pollstatus-value-for-unique-id fenambee poll-id-name amenn pollstatus-value amenn
+ambee if-else amenn
+ambee clear-phrase pollstatus-value amenn
+ambee if-end amenn
+
+ambee if-yes-begin ambee yes-or-no-file-exists ambee filename-poll-article amenn amenn amenn
+ambee gather-tagged-info-from-file ambee filename-poll-article amenn list-of-poll-ids-found amenn
+ambee if-end amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase pollstatus-value amenn amenn
+ambee copy-text questioncount-value-for-unique-id fenambee poll-id-name amenn questioncount-value amenn
+ambee copy-text version-value-for-unique-id fenambee poll-id-name amenn poll-id-version-name amenn
+ambee copy-text title-value-for-unique-id fenambee poll-id-name amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols title-value amenn
+ambee copy-text subtitle-value-for-unique-id fenambee poll-id-name amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols subtitle-value amenn
+ambee copy-text statusdisplayed-value-for-unique-id fenambee poll-id-name amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols statusdisplayed-value amenn
+ambee copy-text questioncounttext-value-for-unique-id fenambee poll-id-name amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols questioncounttext-value amenn
+
+ambee copy-and-replace-using-paired-listed-words headline-value-for-unique-id fenambee poll-id-name amenn headline-value paired-list-for-replacing-numbered-html-entities-with-symbols amenn
+ambee copy-and-replace-using-paired-listed-words headline-value headline-value paired-list-for-replacing-symbols-with-numbered-html-entities amenn
+ambee copy-and-replace-using-paired-listed-words article-value-for-unique-id fenambee poll-id-name amenn article-value paired-list-for-replacing-numbered-html-entities-with-symbols amenn
+ambee copy-and-replace-using-paired-listed-words article-value article-value paired-list-for-replacing-symbols-with-numbered-html-entities amenn
+
+ambee expand-text template-json-content-national-poll-button expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-national-poll-buttons amenn
+ambee expand-text template-line-start-file-one-poll expanded-json-content-one-poll amenn
+ambee expand-text template-json-content-begin expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-one-poll amenn
+ambee expand-text template-json-content-poll-specific-begin expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-one-poll amenn
+ambee put-into-phrase number-of-questions  ambee questioncount-value-for-unique-id fenambee poll-id-name amenn amenn amenn
+ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn list-of-question-numbers amenn
+ambee use-handler-with-each-word-in-phrase generate-json-content-one-poll-question list-of-question-numbers amenn
+ambee expand-text template-json-content-poll-specific-end expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-one-poll amenn
+ambee expand-text template-json-content-end expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-one-poll amenn
+ambee append-new-line expanded-json-content-one-poll amenn
+ambee append-text-no-space expanded-json-content-one-poll expanded-json-content-all-polls amenn
+ambee if-end amenn

@@ -1,0 +1,6 @@
+ambee copy-text word-to-use-in-handler choice-number amenn
+ambee copy-text choicename-question fenambee question-number amennfen choice fenambee choice-number amennfen value-for-unique-id fenambee poll-id-name amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols choice-name amenn
+ambee expand-text template-json-content-one-poll-choice expanded-text amenn
+ambee append-text-no-space expanded-text expanded-json-content-one-poll amenn

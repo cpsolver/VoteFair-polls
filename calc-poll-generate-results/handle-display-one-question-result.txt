@@ -1,0 +1,17 @@
+ambee copy-text word-to-use-in-handler question-number amenn
+ambee append-text question-number list-of-question-numbers amenn
+ambee clear-phrase generated-segment-for-one-question amenn
+ambee copy-text digit-1 popularity-rank amenn
+ambee copy-text template-words-results-begin-question generated-text amenn
+ambee do-replacements-for-question-choice-etc amenn
+ambee append-text generated-text generated-segment-for-one-question amenn
+
+
+ambee trace-show list-of-ranking-levels-for-question fenambee question-number amenn amenn
+
+
+ambee use-handler-with-each-word-in-phrase handle-display-result-one-popularity-ranking-level list-of-ranking-levels-for-question fenambee question-number amenn amenn
+ambee copy-text template-words-results-end-question generated-text amenn
+ambee do-replacements-for-question-choice-etc amenn
+ambee append-text generated-text generated-segment-for-one-question amenn
+ambee append-text generated-segment-for-one-question generated-words-for-article amenn

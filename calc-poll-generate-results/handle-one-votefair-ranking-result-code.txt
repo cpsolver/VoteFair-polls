@@ -1,0 +1,20 @@
+ambee copy-text word-to-use-in-handler current-result-code amenn
+ambee copy-characters-from-position-to-position current-result-code first-character 1 1 amenn
+ambee copy-and-replace-using-paired-listed-words first-character first-character-possible-9 digits-paired-replacements-to-9s amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-phrase-definitions first-character-possible-9 digit-9 amenn amenn
+ambee copy-text current-result-code result-code-positive-integer amenn
+ambee copy-text string-have-underscore result-code-maybe-handle amenn
+ambee append-text-no-space previous-result-code result-code-maybe-handle amenn
+ambee if-else amenn
+ambee clear-phrase result-code-positive-integer amenn
+ambee copy-text current-result-code result-code-maybe-handle amenn
+ambee if-end amenn
+
+ambee copy-words-found-in-both-lists result-code-maybe-handle list-of-result-codes-with-associated-handlers empty-if-no-handler amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase empty-if-no-handler amenn amenn
+ambee handle-result-case fenambee result-code-maybe-handle amenn amenn
+ambee if-end amenn
+
+ambee copy-text current-result-code previous-result-code amenn

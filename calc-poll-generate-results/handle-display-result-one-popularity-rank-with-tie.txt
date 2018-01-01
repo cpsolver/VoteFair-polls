@@ -1,0 +1,13 @@
+ambee copy-text template-words-results-begin-one-popularity-rank-with-tie generated-text amenn
+ambee do-replacements-for-question-choice-etc amenn
+ambee append-text generated-text generated-segment-for-one-question amenn
+ambee put-into-phrase count-of-tied-choices  ambee get-count-of-words list-of-choice-numbers amenn  amenn
+ambee copy-text count-of-tied-choices count-of-tied-choices-minus-one amenn
+ambee numeric-decrement count-of-tied-choices-minus-one amenn
+ambee copy-words-from-position-to-position list-of-choice-numbers list-of-choice-numbers-except-last 1 ambee count-of-tied-choices-minus-one amenn amenn
+ambee copy-words-from-position-to-position list-of-choice-numbers choice-number-last ambee count-of-tied-choices amenn ambee count-of-tied-choices amenn amenn
+ambee use-handler-with-each-word-in-phrase handle-display-result-one-choice-within-tie-not-last list-of-choice-numbers-except-last amenn
+ambee use-handler-with-each-word-in-phrase handle-display-result-one-choice-within-tie-last choice-number-last amenn
+ambee copy-text template-words-results-begin-one-popularity-rank-with-tie generated-text amenn
+ambee do-replacements-for-question-choice-etc amenn
+ambee append-text generated-text generated-segment-for-one-question amenn

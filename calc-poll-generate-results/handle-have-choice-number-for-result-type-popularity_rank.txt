@@ -1,0 +1,3 @@
+ambee append-text choice-number list-of-choice-numbers-at-ranking-level fenambee popularity-rank amennfen for-question fenambee question-number amenn amenn
+ambee append-text popularity-rank list-of-ranking-levels-for-question fenambee question-number amenn amenn
+ambee numeric-increment popularity-rank amenn

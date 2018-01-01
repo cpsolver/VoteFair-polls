@@ -1,0 +1,4 @@
+ambee copy-text result-code-positive-integer choice-number amenn
+ambee copy-words-found-in-either-list choice-number list-of-choice-numbers list-of-choice-numbers amenn
+ambee put-into-phrase number-of-choices-for-question fenambee question-number amenn ambee get-count-of-words list-of-choice-numbers amenn amenn
+ambee handle-have-choice-number-for-result-type fenambee result-type amenn amenn

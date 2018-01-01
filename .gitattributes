@@ -1,1 +1,2 @@
 *-*.txt linguist-language=Dashrep
+*.pm linguist-vendored=true

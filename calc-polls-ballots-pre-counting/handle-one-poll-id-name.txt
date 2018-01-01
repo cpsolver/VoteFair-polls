@@ -1,0 +1,13 @@
+ambee copy-text word-to-use-in-handler poll-id-name amenn
+ambee copy-text number-of-ballots-for-poll fenambee poll-id-name amenn number-of-ballots amenn
+ambee get-question-choice-counts amenn
+ambee expand-text template-ballots-starting-info ballots-starting-info amenn
+ambee copy-text ballots-starting-info ballot-info-for-one-poll amenn
+ambee append-text ballot-info-accumulated-for-poll fenambee poll-id-name amenn ballot-info-for-one-poll amenn
+ambee expand-text template-ballots-ending-info ballots-ending-info amenn
+ambee append-text ballots-ending-info ballot-info-for-one-poll amenn
+ambee copy-without-extra-spaces ballot-info-for-one-poll ballot-info-for-one-poll amenn
+ambee copy-and-replace ballot-info-for-one-poll ballot-info-for-one-poll character-space character-newline amenn
+ambee expand-text template-filename-poll-specific filename-poll-specific amenn
+ambee delete-file ambee filename-poll-specific amenn amenn
+ambee copy-from-phrase-append-to-file ballot-info-for-one-poll ambee filename-poll-specific amenn amenn

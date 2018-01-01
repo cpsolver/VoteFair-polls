@@ -1,0 +1,9 @@
+combee **** reminder: in the converted results, a choice number must not be preceded by a "choice number" code **** comenn
+
+ambee copy-text word-to-use-in-handler ballot-info-one-choice amenn
+ambee copy-and-replace ballot-info-one-choice ballot-info-pair-rank-choice letter-indicating-choice-number character-space amenn
+ambee copy-without-extra-spaces ballot-info-pair-rank-choice ballot-info-pair-rank-choice amenn
+ambee copy-word-at-position ballot-info-pair-rank-choice ranking-number 1 amenn
+ambee copy-word-at-position ballot-info-pair-rank-choice choice-number 2 amenn
+ambee append-text ranking-number list-of-ranking-numbers amenn
+ambee append-text choice-number list-of-choice-numbers amenn

@@ -1,0 +1,17 @@
+ambee clear-phrase info-question-choice-counts amenn
+ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-writing amenn
+ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
+ambee put-into-phrase dashrep-gather-tag-unique  uniqueid  amenn
+ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn unused-list-of-poll-ids-found amenn
+ambee copy-text questioncount-value-for-unique-id fenambee poll-id-name amenn question-count amenn
+ambee generate-counts-from-integer-to-integer 1 ambee question-count amenn list-of-question-numbers amenn
+ambee use-handler-with-each-word-in-phrase get-single-choice-count list-of-question-numbers amenn
+
+
+combee ****
+ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
+ambee trace-show list-of-all-dashrep-phrases amenn
+ambee trace-show questioncount-value-for-unique-id fenambee poll-id-name amenn amenn
+ambee trace-show list-of-question-numbers amenn
+**** comenn

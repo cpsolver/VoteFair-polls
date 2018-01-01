@@ -1,0 +1,2 @@
+voteinfo-code-for-question-number question-number
+voteinfo-code-for-number-of-choices choice-count

@@ -1,0 +1,11 @@
+ambee copy-text character-space string-negative-integer-indicating-question-number amenn
+ambee append-text-no-space voteinfo-code-for-question-number string-negative-integer-indicating-question-number amenn
+ambee append-text-no-space character-space string-negative-integer-indicating-question-number amenn
+
+ambee copy-text character-space string-negative-integer-indicating-choice-number amenn
+ambee append-text-no-space voteinfo-code-for-choice string-negative-integer-indicating-choice-number amenn
+ambee append-text-no-space character-space string-negative-integer-indicating-choice-number amenn
+
+ambee copy-text character-space string-negative-integer-indicating-ranking-tie amenn
+ambee append-text-no-space voteinfo-code-for-tie string-negative-integer-indicating-ranking-tie amenn
+ambee append-text-no-space character-space string-negative-integer-indicating-ranking-tie amenn

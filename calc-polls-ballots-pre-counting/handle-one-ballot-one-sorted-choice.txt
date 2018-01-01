@@ -1,0 +1,20 @@
+combee **** reminder: a choice number is not preceded by a negative integer code **** comenn
+
+ambee copy-text word-to-use-in-handler choice-position-pointer amenn
+ambee copy-word-at-position list-of-choice-numbers choice-number ambee choice-position-pointer amenn amenn
+ambee copy-word-at-position list-of-ranking-numbers ranking-number ambee choice-position-pointer amenn amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-phrase-definitions ranking-number previous-ranking-number amenn amenn
+ambee append-text string-negative-integer-indicating-ranking-tie ballot-info-converted amenn
+ambee if-end amenn
+
+ambee append-text choice-number ballot-info-converted amenn
+ambee copy-text ranking-number previous-ranking-number amenn
+
+
+combee ****
+ambee copy-text choice-position-pointer debug-info amenn
+ambee append-text ranking-number debug-info amenn
+ambee append-text choice-number debug-info amenn
+ambee trace-show debug-info amenn
+**** comenn

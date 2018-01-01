@@ -1,0 +1,26 @@
+combee **** sample ballot:
+q1r10c1r2c2r10c3r1c4r10c5r4c6r10c7r10c8r10c9r10c10q2r5c1r5c2r1c3r5c4r5c5q3r10c1r10c2r10c3r10c4r10c5r10c6r2c7r10c8r1c9r10c10
+split at "r", not "c"
+**** comenn
+
+ambee clear-phrase list-of-ranking-numbers amenn
+ambee clear-phrase list-of-choice-numbers amenn
+ambee clear-phrase previous-ranking-number amenn
+ambee copy-text word-to-use-in-handler ballot-info-one-question amenn
+ambee copy-and-replace ballot-info-one-question ballot-info-split-by-choice letter-indicating-ranking-number character-space amenn
+ambee copy-without-extra-spaces ballot-info-split-by-choice ballot-info-split-by-choice amenn
+ambee copy-word-at-position ballot-info-split-by-choice question-number 1 amenn
+ambee append-text string-negative-integer-indicating-question-number ballot-info-converted amenn
+ambee append-text question-number ballot-info-converted amenn
+ambee copy-words-from-position-to-position ballot-info-split-by-choice ballot-info-split-by-choice 2 999 amenn
+ambee use-handler-with-each-word-in-phrase handle-one-ballot-one-choice ballot-info-split-by-choice amenn
+ambee copy-words-rearrange-using-order-sort-numeric list-of-choice-numbers list-of-choice-positions list-of-ranking-numbers amenn
+ambee use-handler-with-each-word-in-phrase handle-one-ballot-one-sorted-choice list-of-choice-positions amenn
+
+
+combee ****
+ambee trace-show ballot-info-split-by-choice amenn
+ambee trace-show list-of-choice-positions amenn
+ambee trace-show list-of-ranking-numbers amenn
+ambee trace-show list-of-choice-numbers amenn
+**** comenn

@@ -1,2 +1,6 @@
+balloting/*.txt linguist-language=Dashrep
+calc-polls-ballots-pre-counting/*.txt linguist-language=Dashrep
+calc-poll-generate-results/*.txt linguist-language=Dashrep
 *-*.txt linguist-language=Dashrep
 *.pm linguist-vendored=true
+*.pl linguist-language=Perl

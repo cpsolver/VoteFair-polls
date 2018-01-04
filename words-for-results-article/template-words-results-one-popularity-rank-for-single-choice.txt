@@ -1,4 +1,4 @@
 The words-first-second-third-etc-most-for-count-<popularity_rank> popular choicetype-question-<question_number> is
 voteinfo-name-brief-question-<question_number>-choice-<choice_number>
 no-space .
-****
+&#8226;&#8226;&#8226;

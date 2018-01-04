@@ -1,7 +1,2 @@
-ambee copy-text word-to-use-in-handler pointer-to-phrase-name amenn
-ambee copy-word-at-position list-of-voteinfo-phrases voteinfo-phrase-name amenn
-ambee copy-word-at-position list-of-voteinfo-phrases-shortened-names voteinfo-phrase-name-shortened amenn
-ambee copy-text ambee get-phrase-name-from-phrase voteinfo-phrase-name amenn ambee get-phrase-name-from-phrase voteinfo-phrase-name-shortened amenn amenn
-
-
-ambee trace-show ambee get-phrase-name-from-phrase voteinfo-phrase-name-shortened amenn amenn
+ambee copy-text word-to-use-in-handler voteinfo-phrase-name-shortened amenn
+ambee copy-text ambee voteinfo-phrase-name-shortened amennfen value-for-unique-id fenambee poll-id-name amenn voteinfo fenambee voteinfo-phrase-name-shortened amenn amenn

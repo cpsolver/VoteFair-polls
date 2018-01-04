@@ -19,14 +19,15 @@ ambee append-text words-results-end-article expanded-article amenn
 
 
 combee **** todo: use phrase specified by "articlegen" **** comenn
-ambee expand-text generate-headline-standard unused-text amenn
 ambee expand-text generate-article-standard unused-text amenn
 
 
 
-ambee trace-show list-of-votefair-ranking-result-codes amenn
+ambee trace-show generated-headline amenn
+ambee trace-show generated-article amenn
 ambee trace-show generated-words-for-article amenn
 ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
 ambee trace-show list-of-all-dashrep-phrases amenn
-ambee trace-show generated-headline amenn
-ambee trace-show generated-article amenn
+ambee trace-show list-of-votefair-ranking-result-codes amenn
+ambee trace-show list-of-voteinfo-phrases amenn
+ambee trace-show list-of-voteinfo-phrases-shortened-names amenn

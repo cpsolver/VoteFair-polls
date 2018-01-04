@@ -1,1 +1,2 @@
 ambee copy-text result-code-positive-integer ranking-level amenn
+ambee handle-have-ranking-level-for-result-type fenambee result-type amenn amenn

@@ -1,2 +1,1 @@
-ambee copy-text result-code-positive-integer choice-number amenn
 ambee handle-have-tie-indicator-for-result-type fenambee result-type amenn amenn

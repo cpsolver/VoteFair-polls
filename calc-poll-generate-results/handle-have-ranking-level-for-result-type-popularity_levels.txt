@@ -1,6 +1,4 @@
-combee
-ambee copy-text prefix-voteinfo-name-selector voteinfo-name-selector amenn
-ambee expand-text template-selector-numbers-for-question-choice expanded-text amenn
-ambee append-text-no-space expanded-text voteinfo-name-selector amenn
-ambee copy-text voteinfo-name-selector choice-name-for-question fenambee question-number amennfen popularity-rank fenambee ranking-level amenn amenn
-comenn
+combee **** reminder: choice number is first, then ranking level is second, no other ranking/choice codes used for popularity_levels **** comenn
+ambee copy-text ranking-level popularity-rank amenn
+ambee copy-words-found-in-either-list popularity-rank list-of-popularity-rank-numbers-for-question fenambee question-number amenn list-of-popularity-rank-numbers-for-question fenambee question-number amenn amenn
+ambee append-text choice-number list-of-choice-numbers-at-popularity-rank fenambee popularity-rank amennfen for-question fenambee question-number amenn amenn

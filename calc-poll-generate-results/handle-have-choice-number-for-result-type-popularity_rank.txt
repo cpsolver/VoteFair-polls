@@ -1,3 +1,114 @@
+combee
 ambee append-text choice-number list-of-choice-numbers-at-ranking-level fenambee popularity-rank amennfen for-question fenambee question-number amenn amenn
+ambee copy-words-found-in-either-list choice-number list-of-choice-numbers list-of-choice-numbers amenn
+ambee put-into-phrase number-of-choices-for-question fenambee question-number amenn  ambee get-count-of-words list-of-choice-numbers amenn  amenn
 ambee append-text popularity-rank list-of-ranking-levels-for-question fenambee question-number amenn amenn
-ambee numeric-increment popularity-rank amenn
+
+
+*-15* *begin_popularity_rank*
+*-16* *end_popularity_rank*
+
+*-13* *choice_number*
+*-14* *tie_indicator*
+*-28* *next_ranking_level*
+
+
+-15
+-13
+4
+-28
+-13
+6
+-14
+-13
+8
+-28
+-13
+2
+-28
+-13
+3
+-28
+-13
+1
+-28
+-13
+5
+-28
+-13
+7
+-28
+-13
+10
+-28
+-13
+9
+-16
+-5
+4
+-4
+2
+-36
+-13
+1
+-38
+0
+-13
+2
+-38
+0
+-13
+3
+-38
+3
+-13
+4
+-38
+0
+-13
+5
+-38
+0
+-37
+-30
+-32
+1
+-33
+2
+-34
+1
+-35
+1
+-32
+1
+-33
+3
+-34
+0
+-35
+3
+-32
+1
+-33
+4
+-34
+1
+-35
+0
+-32
+1
+-33
+5
+-34
+1
+-35
+0
+-32
+2
+-33
+3
+-34
+0
+-35
+
+comenn

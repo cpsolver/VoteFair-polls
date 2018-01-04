@@ -1,0 +1,12 @@
+ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading amenn
+ambee copy-from-file-to-phrase ambee filename-ranking-numbers amenn list-of-votefair-ranking-result-numbers amenn
+ambee copy-text character-asterisk list-of-votefair-ranking-result-codes amenn
+ambee append-text-no-space list-of-votefair-ranking-result-numbers list-of-votefair-ranking-result-codes amenn
+ambee append-text-no-space character-asterisk list-of-votefair-ranking-result-codes amenn
+ambee copy-without-extra-spaces list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes amenn
+ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-space character-asterisk amenn
+ambee copy-and-replace-using-paired-listed-words list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes paired-list-for-replacing-negative-numbers-with-codes amenn
+ambee copy-and-replace-using-paired-listed-words list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes paired-list-for-replacing-negative-numbers-with-codes amenn
+ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-hyphen empty-text amenn
+ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-asterisk character-space amenn
+ambee copy-without-extra-spaces list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes amenn

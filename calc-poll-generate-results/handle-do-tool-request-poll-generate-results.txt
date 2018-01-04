@@ -2,17 +2,9 @@ ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading ame
 ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-writing amenn
 ambee clear-phrase standard-output amenn
 ambee clear-phrase previous-result-code amenn
-ambee copy-from-file-to-phrase ambee filename-ranking-numbers amenn list-of-votefair-ranking-result-numbers amenn
-ambee copy-text character-asterisk list-of-votefair-ranking-result-codes amenn
-ambee append-text-no-space list-of-votefair-ranking-result-numbers list-of-votefair-ranking-result-codes amenn
-ambee append-text-no-space character-asterisk list-of-votefair-ranking-result-codes amenn
-ambee copy-without-extra-spaces list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes amenn
-ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-space character-asterisk amenn
-ambee copy-and-replace-using-paired-listed-words list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes paired-list-for-replacing-negative-numbers-with-codes amenn
-ambee copy-and-replace-using-paired-listed-words list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes paired-list-for-replacing-negative-numbers-with-codes amenn
-ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-hyphen empty-text amenn
-ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-asterisk character-space amenn
-ambee copy-without-extra-spaces list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes amenn
+ambee get-current-poll-id-name-from-file amenn
+ambee get-list-of-votefair-ranking-result-codes amenn
+ambee gather-voteinfo-values amenn
 
 ambee if-no-begin ambee yes-or-no-empty-phrase list-of-votefair-ranking-result-codes amenn amenn
 ambee use-handler-with-each-word-in-phrase handle-one-votefair-ranking-result-code list-of-votefair-ranking-result-codes amenn
@@ -21,34 +13,15 @@ ambee if-end amenn
 ambee expand-text template-words-results-begin-article words-results-begin-article amenn
 ambee append-text words-results-begin-article expanded-article amenn
 ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn list-of-question-numbers amenn
-ambee use-handler-with-each-word-in-phrase handle-display-one-question-result list-of-question-numbers amenn
+ambee use-handler-with-each-word-in-phrase handle-display-result-one-question list-of-question-numbers amenn
 ambee expand-text template-words-results-end-article words-results-end-article amenn
 ambee append-text words-results-end-article expanded-article amenn
-
-
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-writing amenn
-ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
-ambee put-into-phrase dashrep-gather-tag-unique  uniqueid  amenn
-ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn poll-id-name amenn
-ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
-ambee copy-words-that-contain-listed-words list-of-all-dashrep-phrases list-of-voteinfo-phrases poll-id-name amenn
-ambee copy-and-replace list-of-voteinfo-phrases list-of-voteinfo-phrases-shortened-names poll-id-name empty-text amenn
-ambee copy-and-replace list-of-voteinfo-phrases-shortened-names list-of-voteinfo-phrases-shortened-names string-hyphen-value-for-hyphen string-hyphen-value-hyphen amenn
-ambee generate-counts-from-integer-to-integer 1 ambee get-count-of-words list-of-voteinfo-phrases amenn list-of-phrase-pointers amenn
-ambee use-handler-with-each-word-in-phrase handle-copy-phrase-from-longer-to-shorter-name list-of-phrase-pointers amenn
-
-
-
-
-ambee trace-show list-of-voteinfo-phrases amenn
-ambee trace-show list-of-voteinfo-phrases-shortened-names amenn
-
 
 
 combee **** todo: use phrase specified by "articlegen" **** comenn
 ambee expand-text generate-headline-standard unused-text amenn
 ambee expand-text generate-article-standard unused-text amenn
+
 
 
 ambee trace-show list-of-votefair-ranking-result-codes amenn

@@ -1,2 +1,2 @@
 no-space .
-&#8226;&#8226;&#8226;
+paragraph-next

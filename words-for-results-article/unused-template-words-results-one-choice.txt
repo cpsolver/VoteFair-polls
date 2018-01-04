@@ -1,4 +1,0 @@
-The words-first-second-third-etc-most-for-count-<popularity_rank> popular choicetype-question-<question_number> is
-choice-name-for-question-<question_number>-popularity-rank-<popularity_rank> amenn
-no-space .
-(words for question <question_number> choice <choice_number>)

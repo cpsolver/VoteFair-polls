@@ -1,1 +1,1 @@
-The word-first-second-third-etc-most-for-count-<popularity_rank> popular choicetype-question-<question_number> is a tie between
+The words-first-second-third-etc-most-for-count-<popularity_rank> popular voteinfo-choicetype-question-<question_number> is a tie between

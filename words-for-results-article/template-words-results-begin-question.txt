@@ -1,1 +1,1 @@
-Here are the popularity rankings for choicetypeplural-question-<question_number> no-space :
+Here are the popularity rankings for voteinfo-choicetypeplural-question-<question_number> no-space :

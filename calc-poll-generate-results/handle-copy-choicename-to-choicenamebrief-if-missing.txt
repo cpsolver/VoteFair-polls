@@ -1,0 +1,6 @@
+ambee copy-text word-to-use-in-handler choice-name-phrase amenn
+ambee copy-and-replace choice-name-phrase choice-name-phrase-modified string-choicename-hyphen empty-text amenn
+
+ambee if-yes-begin ambee yes-or-no-empty-phrase voteinfo-choicenamebrief fenambee choice-name-phrase-modified amenn amenn amenn
+ambee copy-text voteinfo-choicename fenambee choice-name-phrase-modified amenn voteinfo-choicenamebrief fenambee choice-name-phrase-modified amenn amenn
+ambee if-end amenn

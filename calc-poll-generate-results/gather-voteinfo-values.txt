@@ -9,3 +9,5 @@ ambee copy-words-unique-only list-of-voteinfo-phrases-shortened-names list-of-vo
 ambee copy-words-found-only-in-first-list list-of-voteinfo-phrases-shortened-names poll-id-name list-of-voteinfo-phrases-shortened-names amenn
 ambee copy-without-extra-spaces list-of-voteinfo-phrases-shortened-names list-of-voteinfo-phrases-shortened-names amenn
 ambee use-handler-with-each-word-in-phrase handle-copy-phrase-from-longer-to-shorter-name list-of-voteinfo-phrases-shortened-names amenn
+ambee copy-words-that-contain-listed-words list-of-voteinfo-phrases-shortened-names list-of-choice-name-phrases string-choicename-hyphen amenn
+ambee use-handler-with-each-word-in-phrase handle-copy-choicename-to-choicenamebrief-if-missing list-of-choice-name-phrases amenn

@@ -1,17 +1,9 @@
 ambee put-into-phrase number-of-ballots  21  amenn
 
 ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 20 amenn amenn amenn
-ambee expand-text generated-words-for-article generated-article amenn
-ambee expand-text template-words-headline-indicate-most-popular generated-headline amenn
-
-ambee trace-show number-of-ballots amenn
-
+ambee put-into-phrase placeholder-for-poll-article  generated-words-for-article  amenn
+ambee put-into-phrase placeholder-for-poll-headline  generated-words-for-headline  amenn
 ambee if-else amenn
-ambee expand-text template-article-not-enough-ballots generated-article amenn
-ambee expand-text template-headline-not-enough-ballots generated-headline amenn
-
-ambee trace-show generated-headline amenn
-
+ambee put-into-phrase placeholder-for-poll-article  template-article-not-enough-ballots  amenn
+ambee put-into-phrase placeholder-for-poll-headline  template-headline-not-enough-ballots  amenn
 ambee if-end amenn
-
-

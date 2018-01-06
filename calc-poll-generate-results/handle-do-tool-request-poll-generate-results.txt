@@ -11,18 +11,20 @@ ambee use-handler-with-each-word-in-phrase handle-one-votefair-ranking-result-co
 ambee if-end amenn
 
 ambee expand-text template-words-results-begin-article words-results-begin-article amenn
-ambee append-text words-results-begin-article expanded-article amenn
+ambee append-text words-results-begin-article generated-words-for-article amenn
 ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn list-of-question-numbers amenn
 ambee use-handler-with-each-word-in-phrase handle-display-result-one-question list-of-question-numbers amenn
 ambee expand-text template-words-results-end-article words-results-end-article amenn
-ambee append-text words-results-end-article expanded-article amenn
-
+ambee append-text words-results-end-article generated-words-for-article amenn
 
 combee **** todo: use phrase specified by "articlegen" **** comenn
 ambee expand-text generate-article-standard unused-text amenn
+ambee expand-text template-file-contents-poll-results file-contents-poll-results amenn
+ambee expand-text template-filename-poll-results-article filename-poll-results-article amenn
+ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results-article amenn amenn
 
 
-
+ambee trace-show number-of-ballots amenn
 ambee trace-show generated-headline amenn
 ambee trace-show generated-article amenn
 ambee trace-show generated-words-for-article amenn
@@ -31,3 +33,7 @@ ambee trace-show list-of-all-dashrep-phrases amenn
 ambee trace-show list-of-votefair-ranking-result-codes amenn
 ambee trace-show list-of-voteinfo-phrases amenn
 ambee trace-show list-of-voteinfo-phrases-shortened-names amenn
+ambee trace-show template-filename-poll-results-article amenn
+ambee trace-show filename-poll-results-article amenn
+ambee trace-show file-contents-poll-results amenn
+ambee trace-show list-of-choice-name-phrases amenn

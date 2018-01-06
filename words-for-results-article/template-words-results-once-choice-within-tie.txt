@@ -1,1 +1,0 @@
-voteinfo-choicename-question-<question_number>-choice-<choice_number>

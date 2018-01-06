@@ -1,0 +1,9 @@
+entry_begin
+<new_line>
+uniqueid poll-id-name
+<new_line>
+headline placeholder-for-poll-headline
+<new_line>
+article placeholder-for-poll-article
+<new_line>
+entry_end

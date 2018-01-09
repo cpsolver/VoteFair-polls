@@ -5,10 +5,10 @@ ambee copy-word-at-position list-of-column-numbers-in-fill-sequence column-numbe
 ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-writing amenn
 ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
-ambee expand-text template-filename-poll-article filename-poll-article amenn
+ambee expand-text template-filename-poll-results-article filename-poll-results-article amenn
 ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn list-of-poll-ids-found amenn
 ambee copy-text path-to-dashdef-local dashrep-path-prefix-for-file-writing amenn
-ambee expand-text template-line-start-file-copy-of-poll-specifications-file expanded-text amenn
+ambee expand-text template-line-file-start-copy-of-poll-specifications-file expanded-text amenn
 ambee copy-from-phrase-append-to-file expanded-text ambee filename-accumulated-poll-specification-files amenn amenn
 ambee copy-append-file-to-file ambee filename-poll-specifications amenn ambee filename-accumulated-poll-specification-files amenn amenn
 ambee copy-text path-to-votefair-polls-local dashrep-path-prefix-for-file-writing amenn

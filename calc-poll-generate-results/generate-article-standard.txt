@@ -1,5 +1,3 @@
-ambee put-into-phrase number-of-ballots  21  amenn
-
 ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 20 amenn amenn amenn
 ambee put-into-phrase placeholder-for-poll-article  generated-words-for-article  amenn
 ambee put-into-phrase placeholder-for-poll-headline  generated-words-for-headline  amenn

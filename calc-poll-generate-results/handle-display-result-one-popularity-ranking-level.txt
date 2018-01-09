@@ -2,6 +2,7 @@ ambee copy-text word-to-use-in-handler popularity-rank amenn
 ambee copy-words-sort-numeric list-of-choice-numbers-at-popularity-rank fenambee popularity-rank amennfen for-question fenambee question-number amenn list-of-choice-numbers amenn
 
 ambee if-yes-begin ambee yes-or-no-same-two-words less ambee numeric-equal-greater-less-compare ambee get-count-of-words list-of-choice-numbers amenn 2 amenn amenn amenn
+ambee copy-text list-of-choice-numbers choice-number amenn
 ambee copy-text template-words-results-one-popularity-rank-for-single-choice generated-text amenn
 ambee do-replacements-for-question-choice-etc amenn
 ambee append-text generated-text generated-segment-for-one-question amenn

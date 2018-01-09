@@ -3,6 +3,7 @@ ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-writing ame
 ambee clear-phrase standard-output amenn
 ambee clear-phrase previous-result-code amenn
 ambee get-current-poll-id-name-from-file amenn
+ambee copy-from-file-to-phrase ambee filename-ballot-count amenn number-of-ballots amenn
 ambee get-list-of-votefair-ranking-result-codes amenn
 ambee gather-voteinfo-values amenn
 
@@ -24,16 +25,12 @@ ambee expand-text template-filename-poll-results-article filename-poll-results-a
 ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results-article amenn amenn
 
 
-ambee trace-show number-of-ballots amenn
-ambee trace-show generated-headline amenn
-ambee trace-show generated-article amenn
+ambee trace-show file-contents-poll-results amenn
+ambee expand-text generated-words-for-article expanded-generated-words-for-article amenn
+ambee trace-show expanded-generated-words-for-article amenn
 ambee trace-show generated-words-for-article amenn
 ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
 ambee trace-show list-of-all-dashrep-phrases amenn
 ambee trace-show list-of-votefair-ranking-result-codes amenn
 ambee trace-show list-of-voteinfo-phrases amenn
 ambee trace-show list-of-voteinfo-phrases-shortened-names amenn
-ambee trace-show template-filename-poll-results-article amenn
-ambee trace-show filename-poll-results-article amenn
-ambee trace-show file-contents-poll-results amenn
-ambee trace-show list-of-choice-name-phrases amenn

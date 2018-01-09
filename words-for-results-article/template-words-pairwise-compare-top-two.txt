@@ -1,0 +1,14 @@
+Specifically,
+voteinfo-tally-<most_popular_choice_number>-over-<second_most-popular_choice_number>
+voters prefer
+voteinfo-choicenamebrief-question-<most_popular_choice_number>-choice-<second_most_popular_choice_number>
+over
+voteinfo-choicenamebrief-question-<second_most_popular_choice_number>-choice-<most_popular_choice_number>
+no-space ,
+and
+voteinfo-tally-<most_popular_choice_number>-over-<second_most-popular_choice_number>
+voters prefer
+voteinfo-choicenamebrief-question-<second_most_popular_choice_number>-choice-<most_popular_choice_number>
+over
+voteinfo-choicenamebrief-question-<most_popular_choice_number>-choice-<second_most_popular_choice_number>
+no-space .

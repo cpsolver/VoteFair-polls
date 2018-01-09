@@ -1,1 +1,1 @@
-no-space non-breaking-space
+no-space &#160;

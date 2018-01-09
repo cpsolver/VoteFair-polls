@@ -1,5 +1,7 @@
 ambee copy-text word-to-use-in-handler poll-id-name amenn
 ambee copy-text number-of-ballots-for-poll fenambee poll-id-name amenn number-of-ballots amenn
+ambee delete-file ambee filename-ballot-count amenn amenn
+ambee copy-from-phrase-append-to-file number-of-ballots ambee filename-ballot-count amenn amenn
 ambee get-question-choice-counts amenn
 ambee expand-text template-ballots-starting-info ballots-starting-info amenn
 ambee copy-text ballots-starting-info ballot-info-for-one-poll amenn

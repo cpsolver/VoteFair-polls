@@ -1,5 +1,6 @@
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-writing amenn
+ambee initialize-paths-to-polls-folders amenn
+ambee copy-text path-to-polls dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls dashrep-path-prefix-for-file-writing amenn
 ambee clear-phrase standard-output amenn
 ambee generate-special-negative-code-numbers-with-spaces amenn
 ambee linewise-read-from-file-and-use-handler ambee filename-ballots-filtered amenn handle-one-ballot-line amenn

@@ -1,5 +1,6 @@
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-writing amenn
+ambee initialize-paths-to-polls-folders amenn
+ambee copy-text path-to-polls dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls dashrep-path-prefix-for-file-writing amenn
 ambee clear-phrase standard-output amenn
 ambee clear-phrase previous-result-code amenn
 ambee get-current-poll-id-name-from-file amenn

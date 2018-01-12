@@ -23,12 +23,7 @@ ambee if-end amenn
 ambee expand-text template-filename-json-content-national-poll-buttons filename-json-content-national-poll-buttons amenn
 ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-writing amenn
-
-ambee trace-show dashrep-path-prefix-for-file-reading amenn
-ambee trace-show dashrep-path-prefix-for-file-writing amenn
-combee
 ambee copy-from-phrase-append-to-file expanded-json-content-national-poll-buttons ambee filename-json-content-national-poll-buttons amenn amenn
-comenn
 
 
 combee **** debugging code: 

@@ -25,12 +25,7 @@ ambee expand-text template-file-contents-poll-results file-contents-poll-results
 ambee expand-text template-filename-poll-results-article filename-poll-results-article amenn
 ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-writing amenn
-
-ambee trace-show dashrep-path-prefix-for-file-reading amenn
-ambee trace-show dashrep-path-prefix-for-file-writing amenn
-combee
 ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results-article amenn amenn
-comenn
 
 
 ambee trace-show file-contents-poll-results amenn

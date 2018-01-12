@@ -55,11 +55,5 @@ ambee append-new-line expanded-json-content-one-poll amenn
 ambee expand-text template-filename-json-content-poll-specific filename-json-content-poll-specific amenn
 ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-writing amenn
-
-ambee trace-show dashrep-path-prefix-for-file-reading amenn
-ambee trace-show dashrep-path-prefix-for-file-writing amenn
-combee
 ambee copy-from-phrase-append-to-file expanded-json-content-one-poll ambee filename-json-content-poll-specific amenn amenn
-comenn
-
 ambee if-end amenn

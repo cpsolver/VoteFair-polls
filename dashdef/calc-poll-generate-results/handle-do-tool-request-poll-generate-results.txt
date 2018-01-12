@@ -1,9 +1,9 @@
 ambee initialize-paths-to-polls-folders amenn
-ambee copy-text path-to-polls dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls dashrep-path-prefix-for-file-writing amenn
 ambee clear-phrase standard-output amenn
 ambee clear-phrase previous-result-code amenn
 ambee get-current-poll-id-name-from-file amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee copy-from-file-to-phrase ambee filename-ballot-count amenn number-of-ballots amenn
 ambee get-list-of-votefair-ranking-result-codes amenn
 ambee gather-voteinfo-values amenn
@@ -23,7 +23,14 @@ combee **** todo: use phrase specified by "articlegen" **** comenn
 ambee expand-text generate-article-standard unused-text amenn
 ambee expand-text template-file-contents-poll-results file-contents-poll-results amenn
 ambee expand-text template-filename-poll-results-article filename-poll-results-article amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-writing amenn
+
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show dashrep-path-prefix-for-file-writing amenn
+combee
 ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results-article amenn amenn
+comenn
 
 
 ambee trace-show file-contents-poll-results amenn

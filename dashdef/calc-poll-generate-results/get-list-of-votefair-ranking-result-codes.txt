@@ -1,4 +1,5 @@
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee copy-from-file-to-phrase ambee filename-ranking-numbers amenn list-of-votefair-ranking-result-numbers amenn
 ambee copy-text character-asterisk list-of-votefair-ranking-result-codes amenn
 ambee append-text-no-space list-of-votefair-ranking-result-numbers list-of-votefair-ranking-result-codes amenn

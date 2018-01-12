@@ -1,7 +1,15 @@
 ambee copy-text word-to-use-in-handler poll-id-name amenn
 ambee copy-text number-of-ballots-for-poll fenambee poll-id-name amenn number-of-ballots amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee delete-file ambee filename-ballot-count amenn amenn
+
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show dashrep-path-prefix-for-file-writing amenn
+combee
 ambee copy-from-phrase-append-to-file number-of-ballots ambee filename-ballot-count amenn amenn
+comenn
+
 ambee get-question-choice-counts amenn
 ambee expand-text template-ballots-starting-info ballots-starting-info amenn
 ambee copy-text ballots-starting-info ballot-info-for-one-poll amenn
@@ -10,6 +18,13 @@ ambee expand-text template-ballots-ending-info ballots-ending-info amenn
 ambee append-text ballots-ending-info ballot-info-for-one-poll amenn
 ambee copy-without-extra-spaces ballot-info-for-one-poll ballot-info-for-one-poll amenn
 ambee copy-and-replace ballot-info-for-one-poll ballot-info-for-one-poll character-space character-newline amenn
-ambee expand-text template-filename-poll-specific filename-poll-specific amenn
-ambee delete-file ambee filename-poll-specific amenn amenn
-ambee copy-from-phrase-append-to-file ballot-info-for-one-poll ambee filename-poll-specific amenn amenn
+ambee expand-text template-filename-ballot-info-pre-counting-poll-specific filename-ballot-info-pre-counting-poll-specific amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
+ambee delete-file ambee filename-ballot-info-pre-counting-poll-specific amenn amenn
+
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show dashrep-path-prefix-for-file-writing amenn
+combee
+ambee copy-from-phrase-append-to-file ballot-info-for-one-poll ambee filename-ballot-info-pre-counting-poll-specific amenn amenn
+comenn

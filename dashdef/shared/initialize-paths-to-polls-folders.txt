@@ -12,9 +12,17 @@ ambee append-text-no-space slash-or-backslash path-to-polls-generated-articles a
 ambee copy-text path-to-polls path-to-polls-executable amenn
 ambee append-text-no-space folder-name-executable path-to-polls-executable amenn
 ambee append-text-no-space slash-or-backslash path-to-polls-executable amenn
-ambee copy-text path-to-polls path-to-polls-poll-specifications amenn
-ambee append-text-no-space folder-name-poll-specifications path-to-polls-poll-specifications amenn
-ambee append-text-no-space slash-or-backslash path-to-polls-poll-specifications amenn
+ambee copy-text path-to-polls path-to-polls-specifications amenn
+ambee append-text-no-space folder-name-poll-specifications path-to-polls-specifications amenn
+ambee append-text-no-space slash-or-backslash path-to-polls-specifications amenn
 ambee copy-text path-to-polls path-to-polls-words-for-results-article amenn
 ambee append-text-no-space folder-name-words-for-results-article path-to-polls-words-for-results-article amenn
 ambee append-text-no-space slash-or-backslash path-to-polls-words-for-results-article amenn
+ambee copy-text path-to-polls path-to-polls-intermediate-content amenn
+ambee append-text-no-space folder-name-intermediate-content path-to-polls-intermediate-content amenn
+ambee append-text-no-space slash-or-backslash path-to-polls-intermediate-content amenn
+
+
+ambee trace-show path-to-polls-local amenn
+ambee trace-show path-to-polls amenn
+ambee trace-show path-to-polls-specifications amenn

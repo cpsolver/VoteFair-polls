@@ -1,1 +1,0 @@
-template-bracketed-start-of-next-file path-to-polls-on-server no-space template-filename-json-content-poll-specific <new_line>

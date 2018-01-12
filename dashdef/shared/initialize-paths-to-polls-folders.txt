@@ -21,8 +21,3 @@ ambee append-text-no-space slash-or-backslash path-to-polls-words-for-results-ar
 ambee copy-text path-to-polls path-to-polls-intermediate-content amenn
 ambee append-text-no-space folder-name-intermediate-content path-to-polls-intermediate-content amenn
 ambee append-text-no-space slash-or-backslash path-to-polls-intermediate-content amenn
-
-
-ambee trace-show path-to-polls-local amenn
-ambee trace-show path-to-polls amenn
-ambee trace-show path-to-polls-specifications amenn

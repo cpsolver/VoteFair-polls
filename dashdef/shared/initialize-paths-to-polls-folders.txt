@@ -9,6 +9,7 @@ ambee if-else amenn
 ambee put-into-phrase slash-or-backslash  /  amenn
 ambee if-end amenn
 
+ambee copy-without-extra-spaces path-to-working-directory path-to-working-directory amenn
 ambee copy-and-replace path-to-working-directory path-to-polls folder-name-intermediate-content empty-text amenn
 ambee copy-text path-to-polls dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls dashrep-path-prefix-for-file-writing amenn
@@ -35,4 +36,13 @@ ambee append-text-no-space folder-name-intermediate-content path-to-polls-interm
 ambee append-text-no-space slash-or-backslash path-to-polls-intermediate-content amenn
 
 
+combee ****
 ambee trace-show path-to-polls amenn
+ambee trace-show path-to-polls-dashdef amenn
+ambee trace-show path-to-polls-generated-json amenn
+ambee trace-show path-to-polls-generated-articles amenn
+ambee trace-show path-to-polls-executable amenn
+ambee trace-show path-to-polls-specifications amenn
+ambee trace-show path-to-polls-words-for-results-article amenn
+ambee trace-show path-to-polls-intermediate-content amenn
+**** comenn

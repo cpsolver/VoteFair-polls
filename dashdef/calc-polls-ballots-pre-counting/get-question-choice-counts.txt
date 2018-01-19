@@ -1,6 +1,6 @@
 ambee clear-phrase info-question-choice-counts amenn
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls-on-server dashrep-path-prefix-for-file-writing amenn
+ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-writing amenn
 ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
 ambee put-into-phrase dashrep-gather-tag-unique  uniqueid  amenn
 ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn unused-list-of-poll-ids-found amenn

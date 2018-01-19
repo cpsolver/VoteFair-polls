@@ -28,6 +28,8 @@ ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-wr
 ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results-article amenn amenn
 
 
+ambee trace-show number-of-ballots amenn
+ambee trace-show number-of-questions amenn
 ambee trace-show file-contents-poll-results amenn
 ambee expand-text generated-words-for-article expanded-generated-words-for-article amenn
 ambee trace-show expanded-generated-words-for-article amenn

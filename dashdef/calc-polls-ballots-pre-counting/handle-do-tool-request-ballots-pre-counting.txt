@@ -1,8 +1,17 @@
 ambee initialize-paths-to-polls-folders amenn
 ambee clear-phrase standard-output amenn
 ambee generate-special-negative-code-numbers-with-spaces amenn
-ambee copy-text path-to-polls dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls dashrep-path-prefix-for-file-writing amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
+
+ambee if-yes-begin ambee yes-or-no-file-exists ambee filename-ballots-filtered amenn amenn amenn
 ambee linewise-read-from-file-and-use-handler ambee filename-ballots-filtered amenn handle-one-ballot-line amenn
 ambee copy-words-unique-only list-of-poll-id-names list-of-poll-id-names amenn
 ambee use-handler-with-each-word-in-phrase handle-one-poll-id-name list-of-poll-id-names amenn
+ambee if-else amenn
+
+
+ambee trace-show filename-ballots-filtered-does-not-exist amenn
+
+
+ambee if-end amenn

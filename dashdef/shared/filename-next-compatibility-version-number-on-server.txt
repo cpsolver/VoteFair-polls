@@ -1,1 +1,0 @@
-next_compatibility_version_number_on_server.txt

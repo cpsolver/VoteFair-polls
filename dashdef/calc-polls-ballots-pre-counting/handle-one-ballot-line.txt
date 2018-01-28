@@ -17,5 +17,5 @@ ambee numeric-increment number-of-ballots-for-poll fenambee poll-id-name amenn a
 combee ****
 ambee trace-show poll-id-name amenn
 ambee trace-show ballot-info-split-by-question amenn
-ambee trace-show ballot-info-converted amenn
 **** comenn
+ambee trace-show ballot-info-converted amenn

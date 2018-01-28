@@ -1,1 +1,1 @@
-ballot_info_pre_counting_ no-space poll-id-name no-space .txt
+output_ballot_pre_count_for_poll_ no-space poll-id-name no-space .txt

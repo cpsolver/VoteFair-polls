@@ -11,3 +11,10 @@ ambee copy-without-extra-spaces list-of-voteinfo-phrases-shortened-names list-of
 ambee use-handler-with-each-word-in-phrase handle-copy-phrase-from-longer-to-shorter-name list-of-voteinfo-phrases-shortened-names amenn
 ambee copy-words-that-contain-listed-words list-of-voteinfo-phrases-shortened-names list-of-choice-name-phrases string-choicename-hyphen amenn
 ambee use-handler-with-each-word-in-phrase handle-copy-choicename-to-choicenamebrief-if-missing list-of-choice-name-phrases amenn
+ambee put-into-phrase number-of-questions  ambee questioncount-value-for-unique-id fenambee poll-id-name amenn amenn amenn
+
+
+ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
+ambee put-listed-phrase-definitions-into-phrase list-of-all-dashrep-phrases all-definitions amenn
+ambee trace-show list-of-all-dashrep-phrases amenn
+ambee trace-show all-definitions amenn

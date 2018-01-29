@@ -15,7 +15,9 @@ ambee clear-phrase pollstatus-value amenn
 ambee if-end amenn
 
 ambee if-yes-begin ambee yes-or-no-file-exists ambee filename-poll-results-article amenn amenn amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
 ambee gather-tagged-info-from-file ambee filename-poll-results-article amenn list-of-poll-ids-found amenn
+ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
 ambee if-end amenn
 
 ambee if-no-begin ambee yes-or-no-empty-phrase pollstatus-value amenn amenn

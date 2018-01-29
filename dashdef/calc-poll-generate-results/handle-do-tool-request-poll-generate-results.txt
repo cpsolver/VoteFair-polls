@@ -8,16 +8,19 @@ ambee copy-from-file-to-phrase ambee filename-ballot-count amenn number-of-ballo
 ambee get-list-of-votefair-ranking-result-codes amenn
 ambee gather-voteinfo-values amenn
 
-ambee if-no-begin ambee yes-or-no-empty-phrase list-of-votefair-ranking-result-codes amenn amenn
-ambee use-handler-with-each-word-in-phrase handle-one-votefair-ranking-result-code list-of-votefair-ranking-result-codes amenn
+ambee if-yes-begin ambee yes-or-no-same-two-words less ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 1 amenn amenn amenn
+ambee clear-phrase list-of-votefair-ranking-result-codes amenn
 ambee if-end amenn
 
+ambee if-no-begin ambee yes-or-no-empty-phrase list-of-votefair-ranking-result-codes amenn amenn
+ambee use-handler-with-each-word-in-phrase handle-one-votefair-ranking-result-code list-of-votefair-ranking-result-codes amenn
 ambee expand-text template-words-results-begin-article words-results-begin-article amenn
 ambee append-text words-results-begin-article generated-words-for-article amenn
 ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn list-of-question-numbers amenn
 ambee use-handler-with-each-word-in-phrase handle-display-result-one-question list-of-question-numbers amenn
 ambee expand-text template-words-results-end-article words-results-end-article amenn
 ambee append-text words-results-end-article generated-words-for-article amenn
+ambee if-end amenn
 
 combee **** todo: use phrase specified by "articlegen" **** comenn
 ambee expand-text generate-article-standard unused-text amenn

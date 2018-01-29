@@ -1,11 +1,11 @@
 entry_begin
-uniqueid 2017_grammys
+uniqueid 2018_grammys
 version nov_28
 datetime 2017 11 28 5 8 0
-comment awards on January 28
+comment nominations in January, awards in February
 pollstatus open
 statusdisplayed Now open for voting!
-title Grammys 2017
+title Grammys 2018
 subtitlebutton Experience the fair way to vote!
 subtitle Best record, album, song, new artist
 articlegen generate-article-standard

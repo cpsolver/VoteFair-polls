@@ -22,8 +22,13 @@ ambee expand-text template-words-results-end-article words-results-end-article a
 ambee append-text words-results-end-article generated-words-for-article amenn
 ambee if-end amenn
 
-combee **** todo: use phrase specified by "articlegen" **** comenn
-ambee expand-text generate-article-standard unused-text amenn
+
+ambee trace-show poll-id-name amenn
+ambee trace-show articlegen-value-for-unique-id fenambee poll-id-name amenn amenn
+ambee trace-show ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id-name amenn amenn amenn
+
+
+ambee expand-text ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id-name amenn amenn unused-text amenn
 ambee expand-text template-file-contents-poll-results file-contents-poll-results amenn
 ambee expand-text template-filename-poll-results-article filename-poll-results-article amenn
 ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn

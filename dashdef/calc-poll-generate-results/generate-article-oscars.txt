@@ -1,0 +1,4 @@
+ambee expand-text template-article-oscars generated-words-for-article-oscars amenn
+ambee put-into-phrase placeholder-for-poll-article  generated-words-for-article-oscars  amenn
+ambee expand-text template-headline-oscars generated-words-for-headline-oscars amenn
+ambee put-into-phrase placeholder-for-poll-headline  generated-words-for-headline-oscars  amenn

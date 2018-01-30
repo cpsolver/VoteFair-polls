@@ -7,8 +7,7 @@ pollstatus open
 statusdisplayed Now open!
 title Oscars 2018
 subtitle Best picture, actress, actor, screenplay
-articlegen generate-article-standard
-headlinegen generate-headline-standard
+articlegen generate-article-oscars
 
 questioncount 4
 questioncounttext 4 questions (picture, actress, actor, screenplay)

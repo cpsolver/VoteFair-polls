@@ -3,13 +3,12 @@ uniqueid 2018_golden_globes
 version dec_15
 datetime 2017 12 15 5 8 0
 comment awards early January
-pollstatus open
-statusdisplayed You can vote, but results are not yet available
+pollstatus closed
+statusdisplayed Nothing to see here until next year
 title Golden Globe Awards 2018
 subtitlebutton Experience the fair way to vote!
 subtitle Best motion picture, best television series
 articlegen generate-article-standard
-headlinegen generate-headline-standard
 
 questioncount 3
 questioncounttext 3 questions

@@ -9,7 +9,6 @@ title Grammys 2018
 subtitlebutton Experience the fair way to vote!
 subtitle Best record, album, song, new artist
 articlegen generate-article-standard
-headlinegen generate-headline-standard
 
 questioncount 4
 questioncounttext 4 questions (record, album, song, new artist)

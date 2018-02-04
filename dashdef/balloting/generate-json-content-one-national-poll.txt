@@ -14,11 +14,22 @@ ambee if-else amenn
 ambee clear-phrase pollstatus-value amenn
 ambee if-end amenn
 
-ambee if-yes-begin ambee yes-or-no-file-exists ambee filename-poll-results-article amenn amenn amenn
+
+ambee trace-show filename-poll-results-article amenn
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+
+
 ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
+
+ambee if-yes-begin ambee yes-or-no-file-exists ambee filename-poll-results-article amenn amenn amenn
 ambee gather-tagged-info-from-file ambee filename-poll-results-article amenn list-of-poll-ids-found amenn
 ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
 ambee if-end amenn
+
+
+ambee trace-show pollstatus-value amenn
+ambee trace-show list-of-poll-ids-found amenn
+
 
 ambee if-no-begin ambee yes-or-no-empty-phrase pollstatus-value amenn amenn
 ambee copy-text questioncount-value-for-unique-id fenambee poll-id-name amenn questioncount-value amenn

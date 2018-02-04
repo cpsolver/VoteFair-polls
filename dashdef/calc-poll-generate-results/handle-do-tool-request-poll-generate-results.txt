@@ -7,6 +7,7 @@ ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-
 ambee copy-from-file-to-phrase ambee filename-ballot-count amenn number-of-ballots amenn
 ambee get-list-of-votefair-ranking-result-codes amenn
 ambee gather-voteinfo-values amenn
+ambee copy-text template-generated-headline-if-error generated-words-for-headline amenn
 
 ambee if-yes-begin ambee yes-or-no-same-two-words less ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 1 amenn amenn amenn
 ambee clear-phrase list-of-votefair-ranking-result-codes amenn
@@ -20,6 +21,7 @@ ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn 
 ambee use-handler-with-each-word-in-phrase handle-display-result-one-question list-of-question-numbers amenn
 ambee expand-text template-words-results-end-article words-results-end-article amenn
 ambee append-text words-results-end-article generated-words-for-article amenn
+ambee generate-headline-from-first-question-result amenn
 ambee if-end amenn
 
 
@@ -40,7 +42,6 @@ ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-
 ambee trace-show number-of-ballots amenn
 ambee trace-show number-of-questions amenn
 ambee trace-show file-contents-poll-results amenn
-ambee expand-text generated-words-for-article expanded-generated-words-for-article amenn
 ambee trace-show expanded-generated-words-for-article amenn
 ambee trace-show generated-words-for-article amenn
 ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn

@@ -1,0 +1,11 @@
+ambee copy-text template-words-headline-begin-one-popularity-rank-with-tie generated-words-for-headline amenn
+ambee put-into-phrase count-of-tied-choices  ambee get-count-of-words list-of-choice-numbers amenn  amenn
+ambee copy-text count-of-tied-choices count-of-tied-choices-minus-one amenn
+ambee numeric-decrement count-of-tied-choices-minus-one amenn
+ambee copy-words-from-position-to-position list-of-choice-numbers list-of-choice-numbers-except-last 1 ambee count-of-tied-choices-minus-one amenn amenn
+ambee copy-words-from-position-to-position list-of-choice-numbers choice-number-last ambee count-of-tied-choices amenn ambee count-of-tied-choices amenn amenn
+ambee use-handler-with-each-word-in-phrase handle-display-headline-one-choice-within-tie-not-last list-of-choice-numbers-except-last amenn
+ambee copy-text choice-number-last word-to-use-in-handler amenn
+ambee handle-display-headline-one-choice-within-tie amenn
+ambee append-text template-words-headline-end-one-popularity-rank-with-tie generated-words-for-headline amenn
+ambee expand-text generated-words-for-headline expanded-generated-words-for-headline amenn

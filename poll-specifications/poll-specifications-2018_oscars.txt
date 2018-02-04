@@ -41,6 +41,12 @@ choicename-question-2-choice-3 Margot Robbie, I, Tonya
 choicename-question-2-choice-4 Saoirse Ronan, Lady Bird
 choicename-question-2-choice-5 Meryl Streep, The Post
 
+choicenamebrief-question-2-choice-1 Sally Hawkins (in The Shape of Water)
+choicenamebrief-question-2-choice-2 Frances McDormand (in Three Billboards outside Ebbing, Missouri)
+choicenamebrief-question-2-choice-3 Margot Robbie (in I, Tonya)
+choicenamebrief-question-2-choice-4 Saoirse Ronan (in Lady Bird)
+choicenamebrief-question-2-choice-5 Meryl Streep (in The Post)
+
 title-question-3 Best actor
 subtitle-question-3 Who is your favorite, second-favorite, etc. actor?
 choicetype-question-3 actor
@@ -51,6 +57,12 @@ choicename-question-3-choice-2 Daniel Day-Lewis, Phantom Thread
 choicename-question-3-choice-3 Daniel Kaluuya, Get Out
 choicename-question-3-choice-4 Gary Oldman, Darkest Hour
 choicename-question-3-choice-5 Denzel Washington, Roman J. Israel, Esq.
+
+choicenamebrief-question-3-choice-1 Timothée Chalamet (in Call Me by Your Name)
+choicenamebrief-question-3-choice-2 Daniel Day-Lewis (in Phantom Thread)
+choicenamebrief-question-3-choice-3 Daniel Kaluuya (in Get Out)
+choicenamebrief-question-3-choice-4 Gary Oldman (in Darkest Hour)
+choicenamebrief-question-3-choice-5 Denzel Washington (in Roman J. Israel, Esq.)
 
 title-question-4 Best screenplay (original or adapted)
 subtitle-question-4 Which is your favorite, second-favorite, etc. screenplay?

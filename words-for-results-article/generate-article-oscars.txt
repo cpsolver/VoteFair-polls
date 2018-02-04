@@ -1,0 +1,14 @@
+ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 19 amenn amenn amenn
+ambee copy-text expanded-generated-words-for-headline expanded-headline-oscars amenn
+ambee copy-text expanded-generated-words-for-article expanded-article-oscars amenn
+ambee if-else amenn
+ambee expand-text template-headline-oscars-starting expanded-headline-oscars amenn
+ambee expand-text template-article-oscars-starting expanded-article-oscars amenn
+ambee if-end amenn
+
+ambee put-into-phrase placeholder-for-poll-headline  expanded-headline-oscars  amenn
+ambee put-into-phrase placeholder-for-poll-article  expanded-article-oscars  amenn
+
+
+ambee trace-show expanded-article-oscars amenn
+ambee trace-show expanded-headline-oscars amenn

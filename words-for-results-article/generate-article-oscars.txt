@@ -1,4 +1,4 @@
-ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 19 amenn amenn amenn
+ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 4 amenn amenn amenn
 ambee copy-text expanded-generated-words-for-headline expanded-headline-oscars amenn
 ambee copy-text expanded-generated-words-for-article expanded-article-oscars amenn
 ambee if-else amenn

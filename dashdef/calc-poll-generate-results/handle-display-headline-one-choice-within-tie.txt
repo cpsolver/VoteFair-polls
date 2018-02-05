@@ -1,2 +1,3 @@
-ambee expand-text template-words-headline-one-choice-within-tie generated-text amenn
+ambee copy-text template-words-headline-one-choice-within-tie generated-text amenn
+ambee do-replacements-for-question-choice-etc amenn
 ambee append-text generated-text generated-words-for-headline amenn

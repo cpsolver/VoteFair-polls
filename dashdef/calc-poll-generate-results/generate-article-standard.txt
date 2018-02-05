@@ -1,6 +1,6 @@
 ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 20 amenn amenn amenn
-ambee put-into-phrase placeholder-for-poll-article  generated-words-for-article  amenn
-ambee put-into-phrase placeholder-for-poll-headline  generated-words-for-headline  amenn
+ambee put-into-phrase placeholder-for-poll-article  expanded-generated-words-for-article  amenn
+ambee put-into-phrase placeholder-for-poll-headline  expanded-generated-words-for-headline  amenn
 ambee if-else amenn
 ambee put-into-phrase placeholder-for-poll-article  template-article-not-enough-ballots  amenn
 ambee put-into-phrase placeholder-for-poll-headline  template-headline-not-enough-ballots  amenn

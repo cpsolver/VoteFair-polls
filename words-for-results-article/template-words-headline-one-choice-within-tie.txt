@@ -1,1 +1,1 @@
-voteinfo-choicenamebrief-question-1-choice fenambee choice-number amenn
+voteinfo-choicenamebrief-question-1-choice-<choice_number>

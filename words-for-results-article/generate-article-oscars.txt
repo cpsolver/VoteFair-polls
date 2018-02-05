@@ -10,5 +10,7 @@ ambee put-into-phrase placeholder-for-poll-headline  expanded-headline-oscars  a
 ambee put-into-phrase placeholder-for-poll-article  expanded-article-oscars  amenn
 
 
-ambee trace-show expanded-article-oscars amenn
 ambee trace-show expanded-headline-oscars amenn
+ambee trace-show expanded-generated-words-for-headline amenn
+ambee trace-show expanded-article-oscars amenn
+ambee trace-show expanded-generated-words-for-article amenn

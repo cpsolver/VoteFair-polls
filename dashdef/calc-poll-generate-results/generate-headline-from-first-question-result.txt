@@ -4,9 +4,14 @@ ambee copy-words-sort-numeric list-of-choice-numbers-at-popularity-rank-1-for-qu
 
 ambee if-yes-begin ambee yes-or-no-same-two-words less ambee numeric-equal-greater-less-compare ambee get-count-of-words list-of-choice-numbers amenn 2 amenn amenn amenn
 ambee copy-text list-of-choice-numbers choice-number amenn
-ambee copy-text template-words-headline-one-popularity-rank-for-single-choice generated-words-for-headline amenn
+ambee copy-text template-words-headline-one-popularity-rank-for-single-choice generated-text amenn
+ambee do-replacements-for-question-choice-etc amenn
+ambee copy-text generated-text generated-words-for-headline amenn
 ambee if-else amenn
 ambee handle-display-headline-one-popularity-rank-with-tie amenn
 ambee if-end amenn
 
 ambee expand-text generated-words-for-headline expanded-generated-words-for-headline amenn
+
+
+ambee trace-show expanded-generated-words-for-headline amenn

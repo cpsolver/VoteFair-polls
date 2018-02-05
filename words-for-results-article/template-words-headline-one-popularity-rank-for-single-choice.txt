@@ -1,4 +1,2 @@
 The most popular voteinfo-choicetype-question-1 is
-voteinfo-choicenamebrief-question-1-choice fenambee choice-number amenn
-no-space .
-sentence-next
+voteinfo-choicenamebrief-question-1-choice-<choice_number>

@@ -8,4 +8,6 @@ ambee use-handler-with-each-word-in-phrase handle-display-headline-one-choice-wi
 ambee copy-text choice-number-last word-to-use-in-handler amenn
 ambee handle-display-headline-one-choice-within-tie amenn
 ambee append-text template-words-headline-end-one-popularity-rank-with-tie generated-words-for-headline amenn
-ambee expand-text generated-words-for-headline expanded-generated-words-for-headline amenn
+ambee copy-text generated-words-for-headline generated-text amenn
+ambee do-replacements-for-question-choice-etc amenn
+ambee copy-text generated-text generated-words-for-headline amenn

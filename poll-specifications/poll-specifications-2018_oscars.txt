@@ -1,16 +1,16 @@
 entry_begin
 uniqueid 2018_oscars
-version jan_28
-datetime 2018 1 28 5 8 0
+version feb_7
+datetime 2018 2 7 5 8 0
 comment January 23 to February 28
 pollstatus open
 statusdisplayed Now open!
 title Oscars 2018
-subtitle Best picture, actress, actor, screenplay
+subtitle Best picture, actor/actress, screenplay
 articlegen generate-article-oscars
 
-questioncount 4
-questioncounttext 4 questions (picture, actress, actor, screenplay)
+questioncount 3
+questioncounttext 3 questions (picture, actor/actress, screenplay)
 
 headline Our Oscars poll is now open!
 article You can vote on your favorite (and less-favorite) movies, actresses, actors, and screenplays.  #Oscars
@@ -30,54 +30,47 @@ choicename-question-1-choice-7 The Post
 choicename-question-1-choice-8 The Shape of Water
 choicename-question-1-choice-9 Three Billboards outside Ebbing, Missouri 
 
-title-question-2 Best actress
-subtitle-question-2 Who is your favorite, second-favorite, etc. actress?
-choicetype-question-2 actress
-choicetypeplural-question-2 actresses
-choicecount-question-2 5
+title-question-2 Best actor or actress
+subtitle-question-2 Who is your favorite, second-favorite, etc. actor or actress?
+choicetype-question-2 actor or actress
+choicetypeplural-question-2 actors and actresses
+choicecount-question-2 10
 choicename-question-2-choice-1 Sally Hawkins, The Shape of Water
 choicename-question-2-choice-2 Frances McDormand, Three Billboards outside Ebbing, Missouri
 choicename-question-2-choice-3 Margot Robbie, I, Tonya
 choicename-question-2-choice-4 Saoirse Ronan, Lady Bird
 choicename-question-2-choice-5 Meryl Streep, The Post
+choicename-question-2-choice-6 Timothée Chalamet, Call Me by Your Name
+choicename-question-2-choice-7 Daniel Day-Lewis, Phantom Thread
+choicename-question-2-choice-8 Daniel Kaluuya, Get Out
+choicename-question-2-choice-9 Gary Oldman, Darkest Hour
+choicename-question-2-choice-10 Denzel Washington, Roman J. Israel, Esq.
 
 choicenamebrief-question-2-choice-1 Sally Hawkins (in The Shape of Water)
 choicenamebrief-question-2-choice-2 Frances McDormand (in Three Billboards outside Ebbing, Missouri)
 choicenamebrief-question-2-choice-3 Margot Robbie (in I, Tonya)
 choicenamebrief-question-2-choice-4 Saoirse Ronan (in Lady Bird)
 choicenamebrief-question-2-choice-5 Meryl Streep (in The Post)
+choicenamebrief-question-2-choice-6 Timothée Chalamet (in Call Me by Your Name)
+choicenamebrief-question-2-choice-7 Daniel Day-Lewis (in Phantom Thread)
+choicenamebrief-question-2-choice-8 Daniel Kaluuya (in Get Out)
+choicenamebrief-question-2-choice-9 Gary Oldman (in Darkest Hour)
+choicenamebrief-question-2-choice-10 Denzel Washington (in Roman J. Israel, Esq.)
 
-title-question-3 Best actor
-subtitle-question-3 Who is your favorite, second-favorite, etc. actor?
-choicetype-question-3 actor
-choicetypeplural-question-3 actors
-choicecount-question-3 5
-choicename-question-3-choice-1 Timothée Chalamet, Call Me by Your Name
-choicename-question-3-choice-2 Daniel Day-Lewis, Phantom Thread
-choicename-question-3-choice-3 Daniel Kaluuya, Get Out
-choicename-question-3-choice-4 Gary Oldman, Darkest Hour
-choicename-question-3-choice-5 Denzel Washington, Roman J. Israel, Esq.
-
-choicenamebrief-question-3-choice-1 Timothée Chalamet (in Call Me by Your Name)
-choicenamebrief-question-3-choice-2 Daniel Day-Lewis (in Phantom Thread)
-choicenamebrief-question-3-choice-3 Daniel Kaluuya (in Get Out)
-choicenamebrief-question-3-choice-4 Gary Oldman (in Darkest Hour)
-choicenamebrief-question-3-choice-5 Denzel Washington (in Roman J. Israel, Esq.)
-
-title-question-4 Best screenplay (original or adapted)
-subtitle-question-4 Which is your favorite, second-favorite, etc. screenplay?
-choicetype-question-4 screenplay
-choicetypeplural-question-4 screenplays
-choicecount-question-4 10
-choicename-question-4-choice-1 The Big Sick
-choicename-question-4-choice-2 Get Out
-choicename-question-4-choice-3 Lady Bird
-choicename-question-4-choice-4 The Shape of Water
-choicename-question-4-choice-5 Three Billboards outside Ebbing, Missouri
-choicename-question-4-choice-6 Call Me by Your Name
-choicename-question-4-choice-7 The Disaster Artist
-choicename-question-4-choice-8 Logan
-choicename-question-4-choice-9 Molly's Game
-choicename-question-4-choice-10 Mudbound
+title-question-3 Best screenplay (original or adapted)
+subtitle-question-3 Which is your favorite, second-favorite, etc. screenplay?
+choicetype-question-3 screenplay
+choicetypeplural-question-3 screenplays
+choicecount-question-3 10
+choicename-question-3-choice-1 The Big Sick
+choicename-question-3-choice-2 Get Out
+choicename-question-3-choice-3 Lady Bird
+choicename-question-3-choice-4 The Shape of Water
+choicename-question-3-choice-5 Three Billboards outside Ebbing, Missouri
+choicename-question-3-choice-6 Call Me by Your Name
+choicename-question-3-choice-7 The Disaster Artist
+choicename-question-3-choice-8 Logan
+choicename-question-3-choice-9 Molly's Game
+choicename-question-3-choice-10 Mudbound
 
 entry_end

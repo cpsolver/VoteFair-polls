@@ -1,1 +1,4 @@
-Here are the popularity rankings for voteinfo-choicetypeplural-question-<question_number> no-space :
+Based on
+number-of-ballots
+ballots,
+here are the popularity rankings for voteinfo-choicetypeplural-question-<question_number> no-space :

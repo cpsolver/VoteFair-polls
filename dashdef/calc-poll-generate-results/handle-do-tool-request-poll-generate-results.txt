@@ -42,13 +42,16 @@ ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-
 
 ambee trace-show number-of-ballots amenn
 ambee trace-show number-of-questions amenn
+ambee trace-show generated-words-for-article amenn
+ambee trace-show dashrep-path-prefix-for-file-writing amenn
+ambee trace-show expanded-generated-words-for-article amenn
+
+combee ****
 ambee trace-show file-contents-poll-results amenn
 ambee trace-show filename-poll-results-article amenn
-ambee trace-show dashrep-path-prefix-for-file-writing amenn
-ambee trace-show generated-words-for-article amenn
-ambee trace-show expanded-generated-words-for-article amenn
 ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
 ambee trace-show list-of-all-dashrep-phrases amenn
 ambee trace-show list-of-votefair-ranking-result-codes amenn
 ambee trace-show list-of-voteinfo-phrases amenn
 ambee trace-show list-of-voteinfo-phrases-shortened-names amenn
+**** comenn

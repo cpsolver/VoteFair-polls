@@ -1,19 +1,23 @@
 entry_begin
+
+comment Next year, 2019, only have one question, best picture; possibly include a great movie nominated for best screenplay if not already in nominations, and possibly include a great animated movie
+
+comment dates in 2018: January 23 to February 28
+
 uniqueid 2018_oscars
 version feb_7
 datetime 2018 2 7 5 8 0
-comment January 23 to February 28
-pollstatus open
-statusdisplayed Now open!
+pollstatus closed
+statusdisplayed Closed, not enough ballots cast
 title Oscars 2018
 subtitle Best picture, actor/actress, screenplay
 articlegen generate-article-oscars
 
-questioncount 3
-questioncounttext 3 questions (picture, actor/actress, screenplay)
+questioncount 1
+questioncounttext 3 questions this year, just one question next year
 
-headline Our Oscars poll is now open!
-article You can vote on your favorite (and less-favorite) movies, actresses, actors, and screenplays.  #Oscars
+headline Come back next year for the 2019 Oscars poll
+article Update: This year there were not enough ballots cast to provide meaningful results. sentence-next Next year there will be just one question, not three questions.
 
 title-question-1 Best picture
 subtitle-question-1 Which is your favorite, second-favorite, etc. picture?
@@ -29,6 +33,12 @@ choicename-question-1-choice-6 Phantom Thread
 choicename-question-1-choice-7 The Post
 choicename-question-1-choice-8 The Shape of Water
 choicename-question-1-choice-9 Three Billboards outside Ebbing, Missouri 
+
+entry_end
+
+*---
+
+previously used
 
 title-question-2 Best actor or actress
 subtitle-question-2 Who is your favorite, second-favorite, etc. actor or actress?
@@ -73,4 +83,4 @@ choicename-question-3-choice-8 Logan
 choicename-question-3-choice-9 Molly's Game
 choicename-question-3-choice-10 Mudbound
 
-entry_end
+---*

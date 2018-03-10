@@ -1,0 +1,48 @@
+entry_begin
+
+uniqueid ai
+version week_1
+datetime 2018 3 11 5 8 0
+pollstatus closed
+statusdisplayed Not open yet, but coming soon!
+title American Idol 2018 week 1
+subtitle Rank your favorites, from most liked, to most disliked
+articlegen generate-article-american-idol
+
+questioncount 2
+questioncounttext Two questions (male & female favorites)
+
+headline Coming soon!
+article Yes, the VoteFair American Idol poll ballots are now cast here at NewsHereNow.com
+
+title-question-1 Female singers
+subtitle-question-1 Which is your favorite, second-favorite, etc. female singer?
+choicetype-question-1 singer
+choicetypeplural-question-1 singers
+choicecount-question-1 9
+choicename-question-1-choice-1 xyz
+choicename-question-1-choice-2 xyz
+choicename-question-1-choice-3 xyz
+choicename-question-1-choice-4 xyz
+choicename-question-1-choice-5 xyz
+choicename-question-1-choice-6 xyz
+choicename-question-1-choice-7 xyz
+choicename-question-1-choice-8 xyz
+choicename-question-1-choice-9 xyz 
+
+title-question-2 Male singers
+subtitle-question-2 Which is your favorite, second-favorite, etc. male singer?
+choicetype-question-2 singer
+choicetypeplural-question-2 singers
+choicecount-question-2 9
+choicename-question-2-choice-1 xyz
+choicename-question-2-choice-2 xyz
+choicename-question-2-choice-3 xyz
+choicename-question-2-choice-4 xyz
+choicename-question-2-choice-5 xyz
+choicename-question-2-choice-6 xyz
+choicename-question-2-choice-7 xyz
+choicename-question-2-choice-8 xyz
+choicename-question-2-choice-9 xyz 
+
+entry_end

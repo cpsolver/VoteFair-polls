@@ -1,0 +1,16 @@
+ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 4 amenn amenn amenn
+ambee copy-text expanded-generated-words-for-headline expanded-headline-american-idol amenn
+ambee copy-text expanded-generated-words-for-article expanded-article-american-idol amenn
+ambee if-else amenn
+ambee expand-text template-headline-american-idol-starting expanded-headline-american-idol amenn
+ambee expand-text template-article-american-idol-starting expanded-article-american-idol amenn
+ambee if-end amenn
+
+ambee put-into-phrase placeholder-for-poll-headline  expanded-headline-american-idol  amenn
+ambee put-into-phrase placeholder-for-poll-article  expanded-article-american-idol  amenn
+
+
+ambee trace-show expanded-headline-american-idol amenn
+ambee trace-show expanded-generated-words-for-headline amenn
+ambee trace-show expanded-article-american-idol amenn
+ambee trace-show expanded-generated-words-for-article amenn

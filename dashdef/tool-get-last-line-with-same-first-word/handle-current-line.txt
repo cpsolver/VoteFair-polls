@@ -1,0 +1,12 @@
+ambee copy-word-at-position linewise-input-line-from-file first-word 1 amenn
+
+ambee if-yes-begin ambee yes-if-all-yes ambee yes-if-not-at-first-line amenn ambee yes-or-no-opposite ambee yes-or-no-same-two-phrase-definitions first-word previous-first-word amenn amenn amenn amenn
+ambee copy-from-phrase-append-to-file previous-line ambee filename-output-from-tool amenn amenn
+ambee if-end amenn
+
+ambee put-into-phrase yes-if-not-at-first-line  yes  amenn
+ambee copy-text linewise-input-line-from-file previous-line amenn
+ambee copy-text first-word previous-first-word amenn
+
+
+ambee trace-show first-word amenn

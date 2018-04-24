@@ -1,48 +1,34 @@
 entry_begin
 
 uniqueid ai
-version week_1
-datetime 2018 3 11 5 8 0
-pollstatus closed
-statusdisplayed Not open yet, but coming soon!
-title American Idol 2018 week 1
+version top_10
+datetime 2018 4 23 5 8 0
+pollstatus open
+statusdisplayed Now open for voting!
+title American Idol 2018, Top 10
 subtitle Rank your favorites, from most liked, to most disliked
 articlegen generate-article-american-idol
 
-questioncount 2
-questioncounttext Two questions (male & female favorites)
+questioncount 1
+questioncounttext One question
 
-headline Coming soon!
-article Yes, the VoteFair American Idol poll ballots are now cast here at NewsHereNow.com
+headline actual headline is generated from templates
+article actual article is generated from templates
 
-title-question-1 Female singers
-subtitle-question-1 Which is your favorite, second-favorite, etc. female singer?
+title-question-1 American Idol, Top 10
+subtitle-question-1 Which is your favorite, second-favorite, etc. singer?
 choicetype-question-1 singer
 choicetypeplural-question-1 singers
-choicecount-question-1 9
-choicename-question-1-choice-1 xyz
-choicename-question-1-choice-2 xyz
-choicename-question-1-choice-3 xyz
-choicename-question-1-choice-4 xyz
-choicename-question-1-choice-5 xyz
-choicename-question-1-choice-6 xyz
-choicename-question-1-choice-7 xyz
-choicename-question-1-choice-8 xyz
-choicename-question-1-choice-9 xyz 
-
-title-question-2 Male singers
-subtitle-question-2 Which is your favorite, second-favorite, etc. male singer?
-choicetype-question-2 singer
-choicetypeplural-question-2 singers
-choicecount-question-2 9
-choicename-question-2-choice-1 xyz
-choicename-question-2-choice-2 xyz
-choicename-question-2-choice-3 xyz
-choicename-question-2-choice-4 xyz
-choicename-question-2-choice-5 xyz
-choicename-question-2-choice-6 xyz
-choicename-question-2-choice-7 xyz
-choicename-question-2-choice-8 xyz
-choicename-question-2-choice-9 xyz 
+choicecount-question-1 10
+choicename-question-1-choice-1 Catie Turner
+choicename-question-1-choice-2 Gabby Barrett
+choicename-question-1-choice-3 Jurnee
+choicename-question-1-choice-4 Maddie Poppe
+choicename-question-1-choice-5 Michelle Sussett
+choicename-question-1-choice-6 Ada Vox
+choicename-question-1-choice-7 Cade Foehner
+choicename-question-1-choice-8 Caleb Lee Hutchinson
+choicename-question-1-choice-9 Dennis Lorenzo
+choicename-question-1-choice-10 Michael J. Woodard
 
 entry_end

@@ -1,1 +1,1 @@
-generated hyphen-here poll hyphen-here article hyphen-here poll-id-name no-space .txt
+generated_poll_article_ no-space poll-id-name no-space _ no-space compatibility-version-number no-space .txt

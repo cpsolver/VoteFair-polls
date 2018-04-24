@@ -1,3 +1,4 @@
 ambee copy-and-replace generated-text generated-text string-bracketed-question-number question-number amenn
 ambee copy-and-replace generated-text generated-text string-bracketed-choice-number choice-number amenn
 ambee copy-and-replace generated-text generated-text string-bracketed-popularity-rank popularity-rank amenn
+ambee copy-and-replace generated-text generated-text character-newline character-space amenn

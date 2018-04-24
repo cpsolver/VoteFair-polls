@@ -6,7 +6,14 @@ ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-readin
 ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-writing amenn
 ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
 ambee expand-text template-filename-poll-results-article filename-poll-results-article amenn
+ambee clear-phrase list-of-poll-ids-found amenn
 ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn list-of-poll-ids-found amenn
+
+
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show list-of-poll-ids-found amenn
+ambee trace-show article-value-for-unique-id fenambee poll-id-name amenn amenn
+
 
 ambee if-no-begin ambee yes-or-no-empty-phrase list-of-poll-ids-found amenn amenn
 ambee copy-text pollstatus-value-for-unique-id fenambee poll-id-name amenn pollstatus-value amenn
@@ -20,6 +27,7 @@ ambee trace-show dashrep-path-prefix-for-file-reading amenn
 
 
 ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
+ambee clear-phrase list-of-poll-ids-found amenn
 
 ambee if-yes-begin ambee yes-or-no-file-exists ambee filename-poll-results-article amenn amenn amenn
 ambee gather-tagged-info-from-file ambee filename-poll-results-article amenn list-of-poll-ids-found amenn
@@ -29,6 +37,7 @@ ambee if-end amenn
 
 ambee trace-show pollstatus-value amenn
 ambee trace-show list-of-poll-ids-found amenn
+ambee trace-show article-value-for-unique-id fenambee poll-id-name amenn amenn
 
 
 ambee if-no-begin ambee yes-or-no-empty-phrase pollstatus-value amenn amenn

@@ -9,4 +9,7 @@ ambee copy-text linewise-input-line-from-file previous-line amenn
 ambee copy-text first-word previous-first-word amenn
 
 
-ambee trace-show first-word amenn
+ambee append-text-no-space linewise-input-line-from-file standard-output amenn
+ambee append-text-no-space character-newline standard-output amenn
+ambee append-text-no-space first-word standard-output amenn
+ambee append-text-no-space character-newline standard-output amenn

@@ -1,11 +1,11 @@
 entry_begin
 
 uniqueid ai
-version top_10
-datetime 2018 4 23 5 8 0
+version top_7
+datetime 2018 4 29 5 8 0
 pollstatus open
 statusdisplayed Now open for voting!
-title American Idol 2018, Top 10
+title American Idol 2018, Top 7
 subtitle Rank your favorites, from most liked, to most disliked
 articlegen generate-article-american-idol
 
@@ -15,20 +15,17 @@ questioncounttext One question
 headline actual headline is generated from templates
 article actual article is generated from templates
 
-title-question-1 American Idol, Top 10
-subtitle-question-1 Which is your favorite, second-favorite, etc. singer?
+title-question-1 American Idol, Top 7
+subtitle-question-1 Who is your favorite, second-favorite, etc. singer?
 choicetype-question-1 singer
 choicetypeplural-question-1 singers
-choicecount-question-1 10
+choicecount-question-1 7
 choicename-question-1-choice-1 Catie Turner
 choicename-question-1-choice-2 Gabby Barrett
 choicename-question-1-choice-3 Jurnee
 choicename-question-1-choice-4 Maddie Poppe
-choicename-question-1-choice-5 Michelle Sussett
-choicename-question-1-choice-6 Ada Vox
-choicename-question-1-choice-7 Cade Foehner
-choicename-question-1-choice-8 Caleb Lee Hutchinson
-choicename-question-1-choice-9 Dennis Lorenzo
-choicename-question-1-choice-10 Michael J. Woodard
+choicename-question-1-choice-5 Cade Foehner
+choicename-question-1-choice-6 Caleb Lee Hutchinson
+choicename-question-1-choice-7 Michael J. Woodard
 
 entry_end

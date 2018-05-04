@@ -1,3 +1,4 @@
+ambee initialize-paths-to-polls-folders amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee copy-from-file-to-phrase ambee filename-poll-id-name amenn poll-id-name amenn

@@ -1,5 +1,6 @@
-ambee copy-without-extra-spaces path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
-ambee copy-without-extra-spaces path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
+ambee initialize-paths-to-polls-folders amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee delete-file ambee filename-output-from-tool amenn amenn
 ambee put-into-phrase yes-if-not-at-first-line  no  amenn
 

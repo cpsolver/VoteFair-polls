@@ -2,6 +2,22 @@ ambee initialize-paths-to-polls-folders amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee copy-from-file-to-phrase ambee filename-poll-id-name amenn poll-id-name amenn
+
+
+ambee append-text-no-space dashrep-path-prefix-for-file-reading standard-output amenn
+ambee append-text-no-space character-newline standard-output amenn
+ambee generate-list-of-files-in-current-read-directory list-of-files amenn
+ambee append-text-no-space list-of-files standard-output amenn
+ambee append-text-no-space character-newline standard-output amenn
+ambee put-into-phrase result-size-of-file  ambee size-of-file ambee filename-poll-id-name amenn amenn amenn
+ambee append-text-no-space result-size-of-file standard-output amenn
+ambee append-text-no-space character-newline standard-output amenn
+ambee append-text-no-space filename-poll-id-name standard-output amenn
+ambee append-text-no-space character-newline standard-output amenn
+ambee append-text-no-space poll-id-name amenn
+ambee append-text-no-space character-newline standard-output amenn
+
+
 ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
 ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
 ambee put-into-phrase dashrep-gather-tag-unique  uniqueid  amenn
@@ -11,13 +27,14 @@ ambee delete-file ambee filename-output-from-tool amenn amenn
 ambee copy-from-phrase-append-to-file poll-version-name ambee filename-output-from-tool amenn amenn
 
 
-ambee append-text-no-space dashrep-path-prefix-for-file-reading standard-output amenn
-ambee append-text-no-space character-newline standard-output amenn
-ambee append-text-no-space filename-poll-id-name standard-output amenn
-ambee append-text-no-space character-newline standard-output amenn
-ambee append-text-no-space poll-id-name amenn
+ambee copy-append-file-to-file ambee filename-poll-specifications amenn ambee filename-output-from-tool amenn amenn
+
+
+ambee append-text-no-space template-filename-poll-specifications amenn
 ambee append-text-no-space character-newline standard-output amenn
 ambee append-text-no-space filename-poll-specifications amenn
+ambee append-text-no-space character-newline standard-output amenn
+ambee append-text-no-space unused-poll-id-name amenn
 ambee append-text-no-space character-newline standard-output amenn
 ambee append-text-no-space dashrep-path-prefix-for-file-writing standard-output amenn
 ambee append-text-no-space character-newline standard-output amenn

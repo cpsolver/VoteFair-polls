@@ -9,3 +9,5 @@ ambee append-text generated-text generated-segment-for-one-question amenn
 ambee if-else amenn
 ambee handle-display-result-one-popularity-rank-with-tie amenn
 ambee if-end amenn
+
+ambee use-handler-with-each-word-in-phrase handle-display-one-plurality-percentage list-of-choice-numbers amenn

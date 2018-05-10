@@ -1,0 +1,3 @@
+voteinfo-choicenamebrief-question-<question_number>-choice-<choice_number>
+at
+<plurality_count>

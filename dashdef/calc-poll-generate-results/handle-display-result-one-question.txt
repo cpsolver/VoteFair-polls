@@ -2,16 +2,13 @@ ambee copy-text word-to-use-in-handler question-number amenn
 ambee append-text question-number list-of-question-numbers amenn
 ambee clear-phrase generated-segment-for-one-question amenn
 ambee copy-text digit-1 popularity-rank amenn
-ambee clear-phrase count-of-plurality-choices-handled amenn
 ambee copy-text template-words-results-begin-question generated-text amenn
 ambee do-replacements-for-question-choice-etc amenn
 ambee append-text generated-text generated-segment-for-one-question amenn
+ambee put-into-phrase choice-count-for-current-question  ambee get-count-of-words list-of-popularity-rank-numbers-for-question fenambee question-number amenn amenn
 ambee copy-words-sort-numeric list-of-popularity-rank-numbers-for-question fenambee question-number amenn list-of-popularity-rank-numbers-for-question fenambee question-number amenn amenn
 ambee use-handler-with-each-word-in-phrase handle-display-result-one-popularity-ranking-level list-of-popularity-rank-numbers-for-question fenambee question-number amenn amenn
 ambee copy-text template-words-results-end-question generated-text amenn
 ambee do-replacements-for-question-choice-etc amenn
 ambee append-text generated-text generated-segment-for-one-question amenn
 ambee append-text generated-segment-for-one-question generated-words-for-article amenn
-
-
-ambee trace-show generated-segment-plurality-percentages amenn

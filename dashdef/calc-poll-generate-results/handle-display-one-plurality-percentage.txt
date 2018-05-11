@@ -1,15 +1,11 @@
 ambee copy-text word-to-use-in-handler choice-number amenn
+ambee copy-text choicecount-question fenambee question-number amennfen value-for-unique-id fenambee poll-id-name amenn choice-count amenn
+ambee put-into-phrase percentage-integer-for-question fenambee question-number amennfen choice fenambee choice-number amenn  ambee numeric-integer ambee numeric-add 0.5 ambee numeric-divide-by ambee numeric-multiply plurality-count 100 amenn ambee choice-count amenn amenn amenn amenn  amenn
 ambee copy-text template-words-results-one-plurality-percentage generated-text amenn
 ambee do-replacements-for-question-choice-etc amenn
 ambee append-text generated-text generated-segment-plurality-percentages amenn
-ambee numeric-increment count-of-plurality-choices-handled amenn
-
-ambee if-yes-begin ambee yes-or-no-same-two-words less ambee numeric-equal-greater-less-compare ambee count-of-plurality-choices-handled amenn ambee get-count-of-words list-of-choice-numbers amenn amenn amenn amenn
-ambee append-text word-between-plurality-percentages generated-segment-plurality-percentages amenn
-ambee if-else amenn
-ambee append-text word-at-end-of-plurality-percentages generated-segment-plurality-percentages amenn
-ambee if-end amenn
 
 
-ambee trace-show count-of-plurality-choices-handled amenn
+ambee trace-show choicecount-question fenambee question-number amennfen value-for-unique-id fenambee poll-id-name amenn amenn
+ambee trace-show choice-count amenn
 ambee trace-show generated-segment-plurality-percentages amenn

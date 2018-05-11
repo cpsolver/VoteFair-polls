@@ -1,3 +1,4 @@
 voteinfo-choicenamebrief-question-<question_number>-choice-<choice_number>
 at
-<plurality_count>
+percentage-integer-for-question-<question_number>-choice-<choice_number>
+word-between-plurality-percentages

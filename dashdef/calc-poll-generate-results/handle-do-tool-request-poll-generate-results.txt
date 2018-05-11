@@ -20,7 +20,13 @@ ambee expand-text template-words-results-begin-article words-results-begin-artic
 ambee append-text words-results-begin-article generated-words-for-article amenn
 ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn list-of-question-numbers amenn
 ambee use-handler-with-each-word-in-phrase handle-display-result-one-question list-of-question-numbers amenn
+
+
+combee
 ambee copy-words-from-position-to-position generated-segment-plurality-percentages generated-segment-plurality-percentages 1 ambee numeric-minus ambee get-count-of-words generated-segment-plurality-percentages amenn 1 amenn amenn
+comenn
+
+
 ambee append-text word-at-end-of-plurality-percentages generated-segment-plurality-percentages amenn
 ambee expand-text template-words-results-end-article words-results-end-article amenn
 ambee append-text words-results-end-article generated-words-for-article amenn
@@ -52,6 +58,7 @@ ambee delete-file ambee filename-poll-results-article amenn amenn
 ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results-article amenn amenn
 
 
+ambee trace-show generated-segment-plurality-percentages amenn
 ambee trace-show number-of-ballots amenn
 ambee trace-show number-of-questions amenn
 ambee trace-show generated-words-for-article amenn
@@ -67,5 +74,3 @@ ambee trace-show list-of-votefair-ranking-result-codes amenn
 ambee trace-show list-of-voteinfo-phrases amenn
 ambee trace-show list-of-voteinfo-phrases-shortened-names amenn
 **** comenn
-
-ambee trace-show generated-segment-plurality-percentages amenn

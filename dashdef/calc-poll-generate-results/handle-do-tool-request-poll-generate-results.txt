@@ -20,13 +20,7 @@ ambee expand-text template-words-results-begin-article words-results-begin-artic
 ambee append-text words-results-begin-article generated-words-for-article amenn
 ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn list-of-question-numbers amenn
 ambee use-handler-with-each-word-in-phrase handle-display-result-one-question list-of-question-numbers amenn
-
-
-combee
 ambee copy-words-from-position-to-position generated-segment-plurality-percentages generated-segment-plurality-percentages 1 ambee numeric-minus ambee get-count-of-words generated-segment-plurality-percentages amenn 1 amenn amenn
-comenn
-
-
 ambee append-text word-at-end-of-plurality-percentages generated-segment-plurality-percentages amenn
 ambee expand-text template-words-results-end-article words-results-end-article amenn
 ambee append-text words-results-end-article generated-words-for-article amenn
@@ -34,18 +28,12 @@ ambee expand-text generated-words-for-article expanded-generated-words-for-artic
 ambee generate-headline-from-first-question-result amenn
 ambee if-end amenn
 
+ambee expand-text ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id-name amenn amenn unused-text amenn
+
 
 ambee trace-show poll-id-name amenn
 ambee trace-show articlegen-value-for-unique-id fenambee poll-id-name amenn amenn
 ambee trace-show ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id-name amenn amenn amenn
-
-ambee trace-show placeholder-for-poll-headline amenn
-ambee trace-show placeholder-for-poll-article amenn
-
-
-ambee expand-text ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id-name amenn amenn unused-text amenn
-
-
 ambee trace-show placeholder-for-poll-headline amenn
 ambee trace-show placeholder-for-poll-article amenn
 

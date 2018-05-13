@@ -1,12 +1,14 @@
 ambee copy-text word-to-use-in-handler choice-number amenn
-ambee put-into-phrase percentage-integer  ambee numeric-integer ambee numeric-add 0.5 ambee numeric-divide-by ambee numeric-multiply plurality-count 100 amenn ambee number-of-ballots amenn amenn amenn amenn amenn
+ambee copy-text plurality-count-for-question fenambee question-number amennfen choice fenambee choice-number amenn plurality-count amenn
+ambee put-into-phrase percentage-integer  ambee numeric-integer ambee numeric-add 0.5 ambee numeric-divide-by ambee numeric-multiply ambee plurality-count amenn 100 amenn ambee number-of-ballots amenn amenn amenn amenn  amenn
 ambee copy-text percentage-integer percentage-integer-for-question fenambee question-number amennfen choice fenambee choice-number amenn amenn
 ambee copy-text template-words-results-one-plurality-percentage generated-text amenn
 ambee do-replacements-for-question-choice-etc amenn
 ambee append-text generated-text generated-segment-plurality-percentages amenn
 
 
-ambee trace-show plurality-count amenn
-ambee trace-show number-of-ballots amenn
+combee ****
+ambee trace-show plurality-count-for-question fenambee question-number amennfen choice fenambee choice-number amenn amenn
 ambee trace-show percentage-integer-for-question fenambee question-number amennfen choice fenambee choice-number amenn amenn
 ambee trace-show generated-segment-plurality-percentages amenn
+**** comenn

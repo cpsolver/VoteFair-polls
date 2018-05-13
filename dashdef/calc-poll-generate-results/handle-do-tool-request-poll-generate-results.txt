@@ -5,6 +5,7 @@ ambee get-current-poll-id-name-from-file amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee copy-from-file-to-phrase ambee filename-ballot-count amenn number-of-ballots amenn
+ambee copy-without-extra-spaces number-of-ballots number-of-ballots amenn
 ambee get-list-of-votefair-ranking-result-codes amenn
 ambee gather-voteinfo-values amenn
 ambee copy-text template-generated-headline-if-error generated-words-for-headline amenn

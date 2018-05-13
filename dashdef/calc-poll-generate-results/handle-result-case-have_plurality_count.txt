@@ -1,1 +1,7 @@
 ambee copy-text result-code-positive-integer plurality-count amenn
+ambee copy-text plurality-count plurality-count-for-question fenambee question-number amennfen choice fenambee choice-number amenn amenn
+
+
+ambee trace-show plurality-count amenn
+ambee trace-show question-number amenn
+ambee trace-show choice-number amenn

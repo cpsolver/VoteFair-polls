@@ -1,0 +1,9 @@
+ambee copy-word-at-position linewise-input-line-from-file ip-address 1 amenn
+ambee copy-words-from-position-to-position linewise-input-line-from-file remainder-of-line 2 99 amenn
+ambee copy-and-replace ip-address list-of-ip-address-segments character-period character-space amenn
+ambee put-into-phrase ip-address-as-integer  0  amenn
+ambee use-handler-with-each-word-in-phrase handle-current-ip-address-segment list-of-ip-address-segments amenn
+ambee copy-text ip-address-as-integer output-line amenn
+ambee append-text ip-address output-line amenn
+ambee append-text remainder-of-line output-line amenn
+ambee copy-from-phrase-append-to-file output-line ambee filename-output-from-tool amenn amenn

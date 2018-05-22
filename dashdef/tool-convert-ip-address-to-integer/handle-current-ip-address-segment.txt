@@ -1,0 +1,28 @@
+ambee copy-text word-to-use-in-handler ip-address-segment amenn
+ambee append-text ip-address-segment output-line amenn
+ambee put-into-phrase calculated-result  ambee numeric-add ambee numeric-multiply 256 ambee ip-address-as-integer amenn amenn ambee ip-address-segment amenn amenn  amenn
+ambee copy-text calculated-result ip-address-as-integer amenn
+
+
+combee **** todo: if need to handle IPv6, below is C++ coded algorithm.
+
+for( int i = a.size() - 1; i >= 0; i-- )
+{
+for( int j = b.size() - 1; j >= 0; j-- )
+{
+result[ i + j + 1 ] += ( b[ j ] - '0') * ( a[ i ] - '0' ); //single array to store intermediate values
+}
+}
+for( int i = a.size() + b.size(); i >= 0; i-- ){
+if( result[ i ] >= 10 ){
+result[ i - 1 ] +=result[ i ] / 10;result[ i ] %= 10;
+}
+}
+cout << a << " * " << b << " = ";
+for( int i = 0; i < a.size() + b.size(); i++ ){
+cout << result[ i ];
+}
+cout << endl;
+}
+
+**** comenn

@@ -1,5 +1,8 @@
 ambee initialize-paths-to-polls-folders amenn
+
+ambee if-yes-begin ambee yes-or-no-empty-phrase language-choice amenn amenn
 ambee put-into-phrase language-choice  en  amenn
+ambee if-end amenn
 
 combee ****
 ambee copy-text character-space string-paragraphbreakhere-with-spaces amenn

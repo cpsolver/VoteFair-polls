@@ -1,1 +1,1 @@
-buttons_national_polls_ no-space language-choice no-space _ no-space compatibility-version-number no-space .txt no-space
+buttons_national_polls_ no-space compatibility-version-number no-space .txt no-space

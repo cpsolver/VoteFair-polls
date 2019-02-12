@@ -6,7 +6,7 @@ ambee append-text poll-id-name list-of-poll-id-names amenn
 ambee copy-word-at-position linewise-input-line-from-file ballot-info-raw 7 amenn
 ambee append-text voteinfo-code-for-ballot-count ballot-info-converted amenn
 ambee append-text digit-1 ballot-info-converted amenn
-ambee copy-and-replace ballot-info-raw ballot-info-split-by-question letter-indicating-question-number character-space amenn 
+ambee copy-and-replace ballot-info-raw ballot-info-split-by-question letter-indicating-question-number character-space amenn
 ambee copy-without-extra-spaces ballot-info-split-by-question ballot-info-split-by-question amenn
 ambee use-handler-with-each-word-in-phrase handle-one-ballot-one-question ballot-info-split-by-question amenn
 ambee append-text voteinfo-code-for-end-of-ballot ballot-info-converted amenn

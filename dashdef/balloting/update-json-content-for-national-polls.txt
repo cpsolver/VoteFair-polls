@@ -1,8 +1,7 @@
 ambee initialize-paths-to-polls-folders amenn
 
-ambee if-yes-begin ambee yes-or-no-empty-phrase language-choice amenn amenn
+combee language choice not used because poll is language-specific, but assigned as default comenn
 ambee put-into-phrase language-choice  en  amenn
-ambee if-end amenn
 
 combee ****
 ambee copy-text character-space string-paragraphbreakhere-with-spaces amenn
@@ -30,7 +29,7 @@ ambee delete-file ambee filename-json-content-national-poll-buttons amenn amenn
 ambee copy-from-phrase-append-to-file expanded-json-content-national-poll-buttons ambee filename-json-content-national-poll-buttons amenn amenn
 
 
-combee **** debugging code: 
+combee **** debugging code:
 ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
 ambee put-listed-phrase-definitions-into-phrase list-of-all-dashrep-phrases all-definitions amenn
 ambee copy-from-phrase-append-to-file all-definitions ambee filename-json-content-national-poll-buttons amenn amenn

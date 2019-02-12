@@ -50,7 +50,7 @@ choicename-question-2-choice-2 Frances McDormand, Three Billboards outside Ebbin
 choicename-question-2-choice-3 Margot Robbie, I, Tonya
 choicename-question-2-choice-4 Saoirse Ronan, Lady Bird
 choicename-question-2-choice-5 Meryl Streep, The Post
-choicename-question-2-choice-6 Timothée Chalamet, Call Me by Your Name
+choicename-question-2-choice-6 Timoth&#233;e Chalamet, Call Me by Your Name
 choicename-question-2-choice-7 Daniel Day-Lewis, Phantom Thread
 choicename-question-2-choice-8 Daniel Kaluuya, Get Out
 choicename-question-2-choice-9 Gary Oldman, Darkest Hour
@@ -61,7 +61,7 @@ choicenamebrief-question-2-choice-2 Frances McDormand (in Three Billboards outsi
 choicenamebrief-question-2-choice-3 Margot Robbie (in I, Tonya)
 choicenamebrief-question-2-choice-4 Saoirse Ronan (in Lady Bird)
 choicenamebrief-question-2-choice-5 Meryl Streep (in The Post)
-choicenamebrief-question-2-choice-6 Timothée Chalamet (in Call Me by Your Name)
+choicenamebrief-question-2-choice-6 Timoth&#233;e Chalamet (in Call Me by Your Name)
 choicenamebrief-question-2-choice-7 Daniel Day-Lewis (in Phantom Thread)
 choicenamebrief-question-2-choice-8 Daniel Kaluuya (in Get Out)
 choicenamebrief-question-2-choice-9 Gary Oldman (in Darkest Hour)

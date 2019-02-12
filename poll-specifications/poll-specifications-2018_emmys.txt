@@ -1,4 +1,56 @@
 entry_begin
 uniqueid 2018_emmys
-when june?
+version july_14
+datetime 2018 7 14 5 8 0
+pollstatus open
+statusdisplayed Now open for voting!
+title Emmys 2018
+subtitle Outstanding comedy, drama, variety
+articlegen generate-article-emmys
+
+questioncount 3
+questioncounttext 3 questions
+
+headline 2018 Emmy Awards voting is now open
+article Results will be reported soon
+
+title-question-1 Comedy Series
+subtitle-question-1 Which is your favorite, second-favorite, etc. comedy series?
+choicetype-question-1 comedy
+choicetypeplural-question-1 comedies
+choicecount-question-1 8
+choicename-question-1-choice-1 Atlanta (FX)
+choicename-question-1-choice-2 Barry (HBO)
+choicename-question-1-choice-3 Black-ish (ABC)
+choicename-question-1-choice-4 Curb Your Enthusiasm (HBO)
+choicename-question-1-choice-5 GLOW (Netflix)
+choicename-question-1-choice-6 The Marvelous Mrs. Maisel (Amazon)
+choicename-question-1-choice-7 Silicon Valley (HBO)
+choicename-question-1-choice-8 Unbreakable Kimmy Schmidt (Netflix)
+
+title-question-2 Drama Series
+subtitle-question-2 Which is your favorite, second-favorite, etc. drama series?
+choicetype-question-2 drama
+choicetypeplural-question-2 dramas
+choicecount-question-2 7
+choicename-question-2-choice-1 The Americans (FX)
+choicename-question-2-choice-2 The Crown (Netflix)
+choicename-question-2-choice-3 Game of Thrones (HBO)
+choicename-question-2-choice-4 The Handmaid's Tale (Hulu)
+choicename-question-2-choice-5 Stranger Things (Netflix)
+choicename-question-2-choice-6 This Is Us (NBC)
+choicename-question-2-choice-7 Westworld (HBO)
+
+title-question-3 Variety Talk Series
+subtitle-question-3 Which is your favorite, second-favorite, etc. variety-talk series?
+choicetype-question-3 variety-talk series
+choicetypeplural-question-3 variety-talk series
+choicecount-question-3 6
+choicename-question-3-choice-1 The Daily Show with Trevor Noah (Comedy Central)
+choicename-question-3-choice-2 Full Frontal with Samantha Bee (TBS)
+choicename-question-3-choice-3 Jimmy Kimmel Live! (ABC)
+choicename-question-3-choice-4 Last Week Tonight with John Oliver (HBO)
+choicename-question-3-choice-5 The Late Late Show with James Corden (CBS)
+choicename-question-3-choice-6 The Late Show with Stephen Colbert (CBS)
+
 entry_end

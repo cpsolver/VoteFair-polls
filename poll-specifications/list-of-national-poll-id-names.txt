@@ -1,2 +1,2 @@
-ai
-2018_congressional
+2020_prez
+2020_congressional

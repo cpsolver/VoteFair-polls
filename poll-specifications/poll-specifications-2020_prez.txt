@@ -1,0 +1,35 @@
+entry_begin
+
+uniqueid 2020_prez
+version 2019feb10
+datetime 2019 2 10 5 8 0
+pollstatus open
+statusdisplayed US presidential poll is now closed
+title 2010 US Presidential Poll
+subtitle Rank your favorites, from most liked, to most disliked
+articlegen generate-article-2020-prez
+
+questioncount 1
+questioncounttext One question
+
+headline actual headline is generated from templates
+article actual article is generated from templates
+
+title-question-1 2020 US Presidential Poll
+subtitle-question-1 Who is your favorite, second-favorite, etc. candidate?
+choicetype-question-1 candidate
+choicetypeplural-question-1 candidates
+choicecount-question-1 11
+choicename-question-1-choice-1 Elizabeth Warren
+choicename-question-1-choice-2 Kirsten Gillibrand
+choicename-question-1-choice-3 Tulsi Gabbard
+choicename-question-1-choice-4 Kamala Harris
+choicename-question-1-choice-5 Amy Klobuchar
+choicename-question-1-choice-6 Beto O'Rourke
+choicename-question-1-choice-7 John Delaney
+choicename-question-1-choice-8 Julian Castro
+choicename-question-1-choice-9 Cory Booker
+choicename-question-1-choice-10  Donald Trump
+choicename-question-1-choice-11 Mike Pence
+
+entry_end

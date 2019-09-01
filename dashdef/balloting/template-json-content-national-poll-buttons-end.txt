@@ -1,3 +1,0 @@
-code-open-quote selectext-id-national-poll-count code-close-quote no-space ,"contents", code-open-quote number-of-national-polls-to-display code-close-quote ,
-code-open-quote selectext-id-no-national-polls code-close-quote no-space ,"display","none" ,
-code-open-quote selectext-id-getting-national-polls code-close-quote no-space ,"display","none",

@@ -1,3 +1,0 @@
-code-open-quote selectext-id-ballot-question-title underscore-double-here question-number code-close-quote ,"contents", no-space code-open-quote title-question code-close-quote no-space , no-space
-code-open-quote selectext-id-ballot-question-subtitle underscore-double-here question-number code-close-quote ,"contents", no-space code-open-quote subtitle-question code-close-quote no-space , no-space
-code-open-quote selectext-id-ballot-choice-count-for-question underscore-double-here question-number code-close-quote ,"contents", no-space code-open-quote choice-count code-close-quote no-space , no-space

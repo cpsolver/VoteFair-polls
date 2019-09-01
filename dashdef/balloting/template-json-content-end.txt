@@ -1,2 +1,0 @@
- code-open-quote unusedNoTrailingComma code-close-quote character-close-square-bracket
-}

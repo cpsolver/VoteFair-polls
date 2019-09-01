@@ -1,3 +1,0 @@
-{
-code-open-quote idAtrVal code-close-quote : character-open-square-bracket
-code-open-quote unusedZeroItem code-close-quote ,

@@ -1,18 +1,33 @@
 ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
 ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
 ambee put-into-phrase dashrep-gather-tag-unique  uniqueid  amenn
-ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn unused-poll-id-name amenn
+ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn unused-poll-id amenn
 ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
-ambee copy-words-that-contain-listed-words list-of-all-dashrep-phrases list-of-voteinfo-phrases poll-id-name amenn
+ambee copy-words-that-contain-listed-words list-of-all-dashrep-phrases list-of-voteinfo-phrases poll-id amenn
 ambee copy-and-replace list-of-voteinfo-phrases list-of-voteinfo-phrases-shortened-names string-split-voteinfo-phrase-name-long character-space amenn
 ambee copy-words-unique-only list-of-voteinfo-phrases-shortened-names list-of-voteinfo-phrases-shortened-names amenn
-ambee copy-words-found-only-in-first-list list-of-voteinfo-phrases-shortened-names poll-id-name list-of-voteinfo-phrases-shortened-names amenn
+ambee copy-words-found-only-in-first-list list-of-voteinfo-phrases-shortened-names poll-id list-of-voteinfo-phrases-shortened-names amenn
 ambee copy-without-extra-spaces list-of-voteinfo-phrases-shortened-names list-of-voteinfo-phrases-shortened-names amenn
 ambee use-handler-with-each-word-in-phrase handle-copy-phrase-from-longer-to-shorter-name list-of-voteinfo-phrases-shortened-names amenn
 ambee copy-words-that-contain-listed-words list-of-voteinfo-phrases-shortened-names list-of-choice-name-phrases string-choicename-hyphen amenn
 ambee use-handler-with-each-word-in-phrase handle-copy-choicename-to-choicenamebrief-if-missing list-of-choice-name-phrases amenn
-ambee put-into-phrase number-of-questions  ambee questioncount-value-for-unique-id fenambee poll-id-name amenn amenn amenn
+ambee put-into-phrase number-of-questions  ambee questioncount-value-for-unique-id fenambee poll-id amenn amenn amenn
+ambee clear-phrase webpage-summary-id amenn
 
+ambee if-no-begin ambee yes-or-no-empty-phrase websumid-value-for-unique-id fenambee poll-id amenn amenn amenn
+ambee copy-text websumid-value-for-unique-id fenambee poll-id amenn webpage-summary-id amenn
+ambee if-end amenn
+
+combee **** todo: remove after confirm above code is working **** comenn
+ambee if-yes-begin ambee yes-or-no-same-two-words 1 ambee get-position-of-matching-text string-prefix-manitoba-district poll-id amenn amenn amenn
+ambee put-into-phrase webpage-summary-id  manitoba  amenn
+ambee if-end amenn
+
+
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show filename-poll-specifications amenn
+ambee trace-show list-of-voteinfo-phrases-shortened-names amenn
+ambee trace-show list-of-choice-name-phrases amenn
 
 combee ****
 ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn

@@ -1,0 +1,12 @@
+ambee put-into-phrase modification-time  0  amenn
+ambee put-into-phrase yes-or-no-file-exists  ambee yes-or-no-file-exists ambee filename-input amenn amenn  amenn
+
+ambee if-yes-begin ambee yes-or-no-file-exists amenn amenn
+ambee put-into-phrase modification-time  ambee modification-time-of-file ambee filename-input amenn amenn  amenn
+ambee if-end amenn
+
+
+ambee trace-show filename-input amenn
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show modification-time amenn
+ambee trace-show yes-or-no-file-exists amenn

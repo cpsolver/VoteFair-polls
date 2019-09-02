@@ -18,3 +18,8 @@ ambee handle-result-case fenambee result-code-maybe-handle amenn amenn
 ambee if-end amenn
 
 ambee copy-text current-result-code previous-result-code amenn
+
+
+combee ****
+ambee trace-show result-code-maybe-handle amenn
+**** comenn

@@ -1,19 +1,15 @@
+ambee if-yes-begin ambee yes-or-no-same-two-phrase-definitions compatibility-version-number compatibility-version-number-sandbox amenn amenn
+ambee exit-from-dashrep amenn
+ambee if-end amenn
+
 ambee initialize-paths-to-polls-folders amenn
 ambee clear-phrase standard-output amenn
 ambee clear-phrase previous-result-code amenn
 ambee get-current-poll-id-name-from-file amenn
-ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
-ambee copy-from-file-to-phrase ambee filename-ballot-count amenn number-of-ballots amenn
-ambee copy-without-extra-spaces number-of-ballots number-of-ballots amenn
 ambee get-list-of-votefair-ranking-result-codes amenn
 ambee gather-voteinfo-values amenn
 ambee copy-text template-generated-headline-if-error generated-words-for-headline amenn
 ambee copy-text template-words-plurality-counts-starting generated-segment-plurality-percentages amenn
-
-ambee if-yes-begin ambee yes-or-no-same-two-words less ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 1 amenn amenn amenn
-ambee clear-phrase list-of-votefair-ranking-result-codes amenn
-ambee if-end amenn
 
 ambee if-no-begin ambee yes-or-no-empty-phrase list-of-votefair-ranking-result-codes amenn amenn
 ambee use-handler-with-each-word-in-phrase handle-one-votefair-ranking-result-code list-of-votefair-ranking-result-codes amenn
@@ -29,37 +25,23 @@ ambee expand-text generated-words-for-article expanded-generated-words-for-artic
 ambee generate-headline-from-first-question-result amenn
 ambee if-end amenn
 
-ambee expand-text ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id-name amenn amenn unused-text amenn
-
-
-ambee trace-show poll-id-name amenn
-ambee trace-show articlegen-value-for-unique-id fenambee poll-id-name amenn amenn
-ambee trace-show ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id-name amenn amenn amenn
-ambee trace-show placeholder-for-poll-headline amenn
-ambee trace-show placeholder-for-poll-article amenn
-
-
+ambee expand-text ambee get-phrase-name-from-phrase articlegen-value-for-unique-id fenambee poll-id amenn amenn unused-text amenn
+ambee generate-article-standard amenn
 ambee expand-text template-file-contents-poll-results file-contents-poll-results amenn
-ambee expand-text template-filename-poll-results-article filename-poll-results-article amenn
+ambee expand-text template-filename-poll-article filename-poll-results amenn
 ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-writing amenn
-ambee delete-file ambee filename-poll-results-article amenn amenn
-ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results-article amenn amenn
+ambee delete-file ambee filename-poll-results amenn amenn
+ambee copy-from-phrase-append-to-file file-contents-poll-results ambee filename-poll-results amenn amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
+ambee copy-from-phrase-append-to-file webpage-summary-id ambee filename-list-of-webpage-summary-ids amenn amenn
 
 
-ambee trace-show generated-segment-plurality-percentages amenn
-ambee trace-show number-of-ballots amenn
-ambee trace-show number-of-questions amenn
-ambee trace-show generated-words-for-article amenn
-ambee trace-show dashrep-path-prefix-for-file-writing amenn
-ambee trace-show expanded-generated-words-for-article amenn
-ambee trace-show file-contents-poll-results amenn
-ambee trace-show filename-poll-results-article amenn
+ambee trace-show webpage-summary-id amenn
 
-combee ****
-ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
-ambee trace-show list-of-all-dashrep-phrases amenn
-ambee trace-show list-of-votefair-ranking-result-codes amenn
-ambee trace-show list-of-voteinfo-phrases amenn
-ambee trace-show list-of-voteinfo-phrases-shortened-names amenn
-**** comenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase webpage-summary-id amenn amenn
+ambee handle-finish-single-poll-for-webpage-summary amenn
+ambee if-end amenn
+
+ambee possibly-generate-poll-webpage-full amenn

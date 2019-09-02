@@ -1,16 +1,15 @@
-ambee copy-text word-to-use-in-handler poll-id-name amenn
+ambee copy-text word-to-use-in-handler poll-id amenn
 
-ambee if-no-begin ambee yes-or-no-empty-phrase number-of-ballots-for-poll fenambee poll-id-name amenn amenn amenn
+ambee if-no-begin ambee yes-or-no-empty-phrase number-of-ballots-for-poll fenambee poll-id amenn amenn amenn
 ambee handle-one-poll-id-name-case-not-empty amenn
-ambee if-else amenn
-ambee handle-one-poll-id-name-case-empty amenn
-ambee if-end amenn
-
 ambee expand-text template-filename-ballot-info-pre-counting-poll-specific filename-ballot-info-pre-counting-poll-specific amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee delete-file ambee filename-ballot-info-pre-counting-poll-specific amenn amenn
 ambee copy-from-phrase-append-to-file ballot-info-for-one-poll ambee filename-ballot-info-pre-counting-poll-specific amenn amenn
+ambee if-else amenn
+ambee handle-one-poll-id-name-case-empty amenn
+ambee if-end amenn
 
 
 ambee trace-show dashrep-path-prefix-for-file-reading amenn

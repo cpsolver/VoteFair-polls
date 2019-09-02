@@ -5,9 +5,24 @@ ambee numeric-decrement count-of-tied-choices-minus-one amenn
 ambee copy-words-from-position-to-position list-of-choice-numbers list-of-choice-numbers-except-last 1 ambee count-of-tied-choices-minus-one amenn amenn
 ambee copy-words-from-position-to-position list-of-choice-numbers choice-number-last ambee count-of-tied-choices amenn ambee count-of-tied-choices amenn amenn
 ambee use-handler-with-each-word-in-phrase handle-display-headline-one-choice-within-tie-not-last list-of-choice-numbers-except-last amenn
-ambee copy-text choice-number-last word-to-use-in-handler amenn
+ambee copy-text choice-number-last choice-number amenn
+ambee copy-text choice-number word-to-use-in-handler amenn
+combee ****
+reminder: the following handler is also used in a loop,
+so it gets the choice-number from word-to-use-in-handler
+**** comenn
 ambee handle-display-headline-one-choice-within-tie amenn
 ambee append-text template-words-headline-end-one-popularity-rank-with-tie generated-words-for-headline amenn
+
+combee ****
 ambee copy-text generated-words-for-headline generated-text amenn
 ambee do-replacements-for-question-choice-etc amenn
 ambee copy-text generated-text generated-words-for-headline amenn
+**** comenn
+
+
+ambee trace-show list-of-choice-numbers amenn
+ambee trace-show list-of-choice-numbers-except-last amenn
+ambee trace-show count-of-tied-choices amenn
+ambee trace-show count-of-tied-choices-minus-one amenn
+ambee trace-show choice-number-last amenn

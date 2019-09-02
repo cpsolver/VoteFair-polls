@@ -1,0 +1,81 @@
+ambee copy-text word-to-use-in-handler poll-id amenn
+ambee clear-phrase empty-if-no-poll-info-found amenn
+ambee copy-words-found-in-both-lists poll-id list-of-non-local-poll-ids empty-if-local-poll amenn
+
+ambee if-yes-begin ambee yes-or-no-empty-phrase empty-if-local-poll amenn amenn
+ambee put-into-phrase row-number  placeholderrownumber  amenn
+ambee put-into-phrase column-number  placeholdercolumnnumber  amenn
+ambee if-else amenn
+ambee numeric-increment button-number-for-non-local-polls amenn
+ambee copy-word-at-position list-of-row-numbers-in-fill-sequence row-number ambee button-number-for-non-local-polls amenn amenn
+ambee copy-word-at-position list-of-column-numbers-in-fill-sequence column-number ambee button-number-for-non-local-polls amenn amenn
+ambee if-end amenn
+
+ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
+ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
+ambee copy-text filename-poll-specifications filename-input amenn
+ambee get-modification-time-for-filename-input amenn
+ambee copy-text modification-time modification-time-for-poll-specifications amenn
+ambee clear-phrase list-of-poll-ids-found amenn
+ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn list-of-poll-ids-found amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase list-of-poll-ids-found amenn amenn
+ambee copy-text pollstatus-value-for-unique-id fenambee poll-id amenn pollstatus-value amenn
+ambee put-into-phrase empty-if-no-poll-info-found  non_empty  amenn
+ambee copy-text questioncount-value-for-unique-id fenambee poll-id amenn questioncount-value amenn
+ambee copy-text version-value-for-unique-id fenambee poll-id amenn poll-id-version-name amenn
+ambee copy-text title-value-for-unique-id fenambee poll-id amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols title-value amenn
+ambee copy-text subtitle-value-for-unique-id fenambee poll-id amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols subtitle-value amenn
+ambee copy-text statusdisplayed-value-for-unique-id fenambee poll-id amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols statusdisplayed-value amenn
+ambee copy-text questioncounttext-value-for-unique-id fenambee poll-id amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols questioncounttext-value amenn
+ambee get-json-content-heading-and-article amenn
+ambee expand-text template-json-content-begin json-content-one-poll-article-and-ballot amenn
+ambee expand-text template-json-content-poll-specific-begin expanded-text amenn
+ambee append-text-no-space expanded-text json-content-one-poll-article-and-ballot amenn
+ambee put-into-phrase number-of-questions  ambee questioncount-value-for-unique-id fenambee poll-id amenn amenn amenn
+ambee generate-counts-from-integer-to-integer 1 ambee number-of-questions amenn list-of-question-numbers amenn
+ambee use-handler-with-each-word-in-phrase generate-json-content-one-poll-question list-of-question-numbers amenn
+ambee expand-text template-json-content-poll-button json-content-poll-button amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase resultslink-value-for-unique-id fenambee poll-id amenn amenn amenn
+ambee copy-text resultslink-value-for-unique-id fenambee poll-id amenn url-to-public-poll-result amenn
+ambee put-into-phrase block-or-none-for-button-to-results-external  block  amenn
+ambee if-else amenn
+ambee clear-phrase url-to-public-poll-result amenn
+ambee put-into-phrase block-or-none-for-button-to-results-external  none  amenn
+ambee if-end amenn
+
+ambee expand-text template-json-content-poll-specific-end expanded-text amenn
+ambee append-text-no-space expanded-text json-content-one-poll-article-and-ballot amenn
+ambee expand-text template-json-content-end expanded-text amenn
+ambee append-text-no-space expanded-text json-content-one-poll-article-and-ballot amenn
+ambee expand-text template-filename-json-info-poll-specific filename-json-info-poll-specific amenn
+ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-writing amenn
+ambee delete-file ambee filename-json-info-poll-specific amenn amenn
+ambee copy-from-phrase-append-to-file json-content-one-poll-article-and-ballot ambee filename-json-info-poll-specific amenn amenn
+ambee if-end amenn
+
+ambee expand-text template-filename-json-button-poll-local filename-json-button-poll-local amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase empty-if-local-poll amenn amenn
+ambee append-text-no-space json-content-poll-button full-json-content-non-local-poll-buttons amenn
+ambee if-else amenn
+ambee delete-file ambee filename-json-button-poll-local amenn amenn
+ambee copy-from-phrase-append-to-file json-content-poll-button ambee filename-json-button-poll-local amenn amenn
+ambee if-end amenn
+
+
+ambee trace-show filename-json-info-poll-specific amenn
+ambee trace-show json-content-one-poll-article-and-ballot amenn
+ambee trace-show filename-json-button-poll-local amenn
+ambee trace-show json-content-poll-button amenn
+ambee trace-show modification-time-for-poll-specifications amenn

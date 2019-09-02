@@ -1,0 +1,41 @@
+</head>
+<body>
+<div class="outr">
+<h2>Welcome to the News Here Now</h2>
+<h1>Anti&#45;Vote&#45;Splitting Poll</h1>
+<h2>for the</h2>
+<h1>2019 Manitoba Provincial Election</h1>
+<p class="evry">Everyone in Manitoba &mdash; especially in Winnipeg, Brandon, Steinbach, Portage la Prairie, and Thompson &mdash; is welcome to vote here!</p>
+<h2>Why cast a ballot in this poll?</h2>
+<p>Here, today, you get to fill out a <b>ranked ballot</b> rather than marking just a single candidate as your &ldquo;favorite.&rdquo;&nbsp;
+The extra information &mdash; from you and other voters in your riding &mdash; is used with <b>pairwise counting</b> to correctly identify both the <b>most popular candidate</b> and the <b>best opposition candidate</b>.</p>
+<p>When <b>official</b> voting is a few days away, you can return here to learn the <b>best strategy</b> for either helping to elect one of your favorite candidates, or helping to defeat your most&#45;disliked candidate.</p>
+<div class="stps">
+<h2 class="inst">How to vote:</h2>
+<div class="dvstp">
+<ol>
+<li><span class="emp">Enter your Canadian postal code</span> in the text box below, and <span class="emp">click the yellow button</span>.&nbsp;
+(This takes you to the News Here Now website/webapp,
+then automatically finds the center of your postal code,
+and gets the polls for the nearest ridings.)</li>
+<li><span class="emp">Click on your riding's button</span>.&nbsp;
+If you're not sure which riding you're in, please look at either
+<a href="https://electionsmanitoba.ca/downloads/manitoba_map_EN.pdf">this Manitoba map</a>
+or
+<a href="https://electionsmanitoba.ca/downloads/winnipeg_map_EN.pdf">this Winnipeg and Brandon map</a>
+(both of which are in PDF format).&nbsp;
+Or simply choose the top (or upper&#45;left) riding button, and later you can cast a ballot in the correct riding (which automatically moves your vote).</li>
+<li><span class="emp">Click the numbered buttons</span> to indicate your first choice, second choice, and so on.&nbsp; Then <span class="emp">click the &ldquo;Cast Ballot&rdquo; button</span>, which sends your filled&#45;out ballot to the News Here Now newspaper.</li>
+</ol>
+</div>
+<form method="post" name="loc" action="https://www.NewsHereNow.com/cgi-bin/do_redirect.cgi">
+<input type="text" class="postcode" id="pstcd" name="q" value="" placeholder="Canadian postal code" autocapitalize="none" autocorrect="off" tabindex="1" size="35px" maxlength="20" />
+<input type="submit" name="jump" value="Send postal code to News Here Now newspaper" />
+</form>
+<h3>Thank you for voting!</h3>
+<p class="back">Remember to come back here later to find out whether you should mark your official ballot for your first favorite or your second favorite.&nbsp;
+Scroll down for current results.</p>
+</div>
+<h1>Here are the latest poll results</h1>
+<p class="srt">At the top of this list are the ridings in which <span class="emp">the wrong candidate is likely to win</span> because of vote splitting.&nbsp; (Also at the top are the ridings with the most polling votes.)</p>
+<p class="prv">If you live in a riding where vote splitting can cause the wrong candidate to win, please cast your official election ballot for one of the two most popular candidates.&nbsp; If instead you cast your official ballot for a third&#45;most&#45;popular or fourth&#45;most&#45;popular candidate, then you are making it easier for your most&#45;disliked candidate to win.</p>

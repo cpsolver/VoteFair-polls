@@ -1,0 +1,12 @@
+ambee copy-word-at-position poll-id-as-words province-abbreviation 3 amenn
+ambee copy-word-at-position poll-id-as-words district-number-only 4 amenn
+ambee copy-text province-abbreviation district-number amenn
+ambee append-text-no-space character-underscore district-number amenn
+ambee append-text-no-space district-number-only district-number amenn
+ambee copy-uppercase-only province-abbreviation district-number-displayed amenn
+ambee append-text-no-space character-space district-number-displayed amenn
+ambee copy-text district-number-only district-number-not-zero-padded amenn
+ambee numeric-increment district-number-not-zero-padded amenn
+ambee numeric-decrement district-number-not-zero-padded amenn
+ambee append-text district-number-not-zero-padded district-number-displayed amenn
+ambee copy-text districtname-value-for-unique-id fenambee poll-id amenn district-name-without-number amenn

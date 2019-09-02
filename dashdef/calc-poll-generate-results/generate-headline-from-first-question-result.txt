@@ -14,4 +14,7 @@ ambee if-end amenn
 ambee expand-text generated-words-for-headline expanded-generated-words-for-headline amenn
 
 
+ambee trace-show list-of-choice-numbers-at-popularity-rank-1-for-question-1 amenn
+ambee trace-show list-of-choice-numbers amenn
+ambee trace-show generated-words-for-headline amenn
 ambee trace-show expanded-generated-words-for-headline amenn

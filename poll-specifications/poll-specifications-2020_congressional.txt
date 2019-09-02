@@ -7,6 +7,8 @@ statusdisplayed Coming in 2020
 title U.S. Congressional PRIMARY polls
 subtitle 435 polls, one for each Congressional district
 articlegen generate-article-congressional-overview
+websumid congress
+resultslink news_here_now_poll_results_congress.html
 
 questioncount 3
 questioncounttext 3 questions (representative, senator, governor)

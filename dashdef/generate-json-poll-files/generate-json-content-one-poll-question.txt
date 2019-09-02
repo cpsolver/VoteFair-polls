@@ -1,0 +1,15 @@
+ambee copy-text word-to-use-in-handler question-number amenn
+ambee copy-text choicecount-question fenambee question-number amennfen value-for-unique-id fenambee poll-id amenn choice-count amenn
+ambee copy-text title-question fenambee question-number amennfen value-for-unique-id fenambee poll-id amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols title-question amenn
+ambee copy-text subtitle-question fenambee question-number amennfen value-for-unique-id fenambee poll-id amenn text-with-symbols amenn
+ambee convert-symbols-to-html-numbered-entities amenn
+ambee copy-text text-without-symbols subtitle-question amenn
+ambee expand-text template-json-content-one-poll-question expanded-text amenn
+ambee append-text-no-space expanded-text json-content-one-poll-article-and-ballot amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee choice-count amenn 0 amenn amenn amenn
+ambee generate-counts-from-integer-to-integer 1 ambee choice-count amenn list-of-choice-numbers amenn
+ambee use-handler-with-each-word-in-phrase generate-json-content-one-poll-choice list-of-choice-numbers amenn
+ambee if-end amenn

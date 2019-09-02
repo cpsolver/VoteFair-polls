@@ -1,5 +1,8 @@
 *-3* *case_number*
 *-4* *question_number*
+*-5* *total_ballot_count*
+*-10* *ballot_info_repeat_count*
+*-11* *choice_number_different_type*
 *-12* *preference_level*
 *-13* *choice_number*
 *-14* *tie_indicator*
@@ -32,10 +35,7 @@
 
 *-1* *code_unknown*
 *-2* *code_unknown*
-*-5* *code_unknown*
 *-6* *code_unknown*
 *-7* *code_unknown*
 *-8* *code_unknown*
 *-9* *code_unknown*
-*-10* *code_unknown*
-*-11* *code_unknown*

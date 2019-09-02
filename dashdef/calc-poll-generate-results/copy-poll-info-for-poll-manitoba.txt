@@ -1,0 +1,3 @@
+ambee copy-word-at-position poll-id-as-words district-number 3 amenn
+ambee copy-text district-number district-number-displayed amenn
+ambee copy-text districtname-value-for-unique-id fenambee poll-id amenn district-name-without-number amenn

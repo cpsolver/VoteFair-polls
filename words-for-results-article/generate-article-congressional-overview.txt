@@ -1,4 +1,12 @@
-ambee expand-text template-article-congress generated-words-for-article-congress amenn
-ambee put-into-phrase placeholder-for-poll-article  generated-words-for-article-congress  amenn
-ambee expand-text template-headline-congress generated-words-for-headline-congress amenn
-ambee put-into-phrase placeholder-for-poll-headline  generated-words-for-headline-congress  amenn
+ambee expand-text template-file-contents-poll-results-with-placeholders file-contents-poll-results-with-placeholders amenn
+ambee expand-text template-headline-congress expanded-generated-words-for-headline amenn
+ambee expand-text template-article-congress expanded-generated-words-for-article amenn
+ambee copy-and-replace expanded-generated-words-for-headline expanded-generated-words-for-headline character-newline character-space amenn
+ambee copy-and-replace file-contents-poll-results-with-placeholders file-contents-poll-results-with-placeholders string-placeholderpollheadline expanded-generated-words-for-headline amenn
+ambee copy-and-replace expanded-generated-words-for-article expanded-generated-words-for-article character-newline character-space amenn
+ambee copy-and-replace file-contents-poll-results-with-placeholders file-contents-poll-results-with-placeholders string-placeholderpollarticle expanded-generated-words-for-article amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-writing amenn
+ambee expand-text template-filename-poll-article filename-poll-article amenn
+ambee delete-file ambee filename-poll-article amenn amenn
+ambee copy-from-phrase-append-to-file file-contents-poll-results-with-placeholders ambee filename-poll-article amenn amenn

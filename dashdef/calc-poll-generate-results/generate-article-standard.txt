@@ -1,7 +1,19 @@
-ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 20 amenn amenn amenn
+ambee if-no-begin ambee yes-or-no-empty-phrase template-headline-not-enough-ballots fenambee webpage-summary-id amenn amenn amenn
+ambee copy-text template-headline-not-enough-ballots fenambee webpage-summary-id amenn template-headline-not-enough-ballots amenn
+ambee if-end amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase template-article-not-enough-ballots fenambee webpage-summary-id amenn amenn amenn
+ambee copy-text template-article-not-enough-ballots fenambee webpage-summary-id amenn template-article-not-enough-ballots amenn
+ambee if-end amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 3 amenn amenn amenn
 ambee put-into-phrase placeholder-for-poll-article  expanded-generated-words-for-article  amenn
 ambee put-into-phrase placeholder-for-poll-headline  expanded-generated-words-for-headline  amenn
 ambee if-else amenn
 ambee put-into-phrase placeholder-for-poll-article  template-article-not-enough-ballots  amenn
 ambee put-into-phrase placeholder-for-poll-headline  template-headline-not-enough-ballots  amenn
 ambee if-end amenn
+
+
+ambee trace-show placeholder-for-poll-article amenn
+ambee trace-show placeholder-for-poll-headline amenn

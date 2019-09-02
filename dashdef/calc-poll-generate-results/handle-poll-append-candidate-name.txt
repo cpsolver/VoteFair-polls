@@ -1,0 +1,24 @@
+ambee copy-text word-to-use-in-handler choice-number amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase candidate-name-or-names amenn amenn
+ambee append-text template-join-candidate-names candidate-name-or-names amenn
+ambee append-text template-join-plurality-percentages percentage-to-display amenn
+ambee copy-text template-word-to-indicate-tie possible-word-to-indicate-tie amenn
+ambee if-end amenn
+
+ambee put-into-phrase generated-text voteinfo-choicename-question-1-choice-<choice_number> amenn
+ambee do-replacements-for-question-choice-etc amenn
+ambee append-text generated-text candidate-name-or-names amenn
+ambee append-text percentage-integer-for-question fenambee question-number amennfen choice fenambee choice-number amenn percentage-to-display amenn
+ambee append-text-no-space character-percent-sign percentage-to-display amenn
+ambee append-text percentage-integer-for-question fenambee question-number amennfen choice fenambee choice-number amenn list-of-plurality-percentages amenn
+
+ambee if-yes-begin ambee yes-or-no-empty-phrase voteinfo-choicenamebrief-question fenambee question-number amennfen choice fenambee choice-number amenn amenn amenn
+ambee copy-text voteinfo-choicename-question fenambee question-number amennfen choice fenambee choice-number amenn voteinfo-choicenamebrief-question fenambee question-number amennfen choice fenambee choice-number amenn amenn
+ambee if-end amenn
+
+
+combee ****
+ambee trace-show voteinfo-choicename-question fenambee question-number amennfen choice fenambee choice-number amenn amenn
+ambee trace-show voteinfo-choicenamebrief-question fenambee question-number amennfen choice fenambee choice-number amenn amenn
+**** comenn

@@ -4,10 +4,12 @@ uniqueid 2020_prez
 version 2019feb10
 datetime 2019 2 10 5 8 0
 pollstatus open
-statusdisplayed US presidential poll is now closed
-title 2010 US Presidential Poll
+statusdisplayed US presidential poll is now open
+title 2020 US Presidential Poll
 subtitle Rank your favorites, from most liked, to most disliked
 articlegen generate-article-2020-prez
+websumid prez
+resultslink news_here_now_poll_results_prez.html
 
 questioncount 1
 questioncounttext One question

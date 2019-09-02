@@ -1,0 +1,48 @@
+ambee copy-text word-to-use-in-handler webpage-summary-id amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
+ambee expand-text template-filename-poll-ids-sortable filename-poll-ids-sortable amenn
+ambee copy-from-file-to-phrase ambee filename-poll-ids-sortable amenn list-of-poll-ids-sortable amenn
+ambee copy-without-extra-spaces list-of-poll-ids-sortable list-of-poll-ids-sortable amenn
+ambee delete-file ambee filename-poll-ids-sortable amenn amenn
+ambee expand-text template-filename-webpage-summary-polls-full filename-webpage-summary-polls-full amenn
+ambee delete-file ambee filename-webpage-summary-polls-full amenn amenn
+ambee copy-from-phrase-append-to-file web-page-summary-begin ambee filename-webpage-summary-polls-full amenn amenn
+ambee copy-from-phrase-append-to-file web-page-summary-stylesheet ambee filename-webpage-summary-polls-full amenn amenn
+ambee copy-from-phrase-append-to-file web-page-summary-intro fenambee webpage-summary-id amenn ambee filename-webpage-summary-polls-full amenn amenn
+ambee expand-text template-filename-polls-sort-priority filename-polls-sort-priority amenn
+ambee copy-from-file-to-phrase ambee filename-polls-sort-priority amenn list-of-sort-priority-numbers amenn
+ambee copy-without-extra-spaces list-of-sort-priority-numbers list-of-sort-priority-numbers amenn
+ambee delete-file ambee filename-polls-sort-priority amenn amenn
+ambee copy-words-rearrange-using-order-sort-numeric list-of-poll-ids-sortable list-of-poll-id-names-sorted list-of-sort-priority-numbers amenn
+ambee copy-words-order-reversed list-of-poll-id-names-sorted list-of-poll-id-names-sorted-reversed amenn
+ambee use-handler-with-each-word-in-phrase append-html-for-one-poll-summary list-of-poll-id-names-sorted-reversed amenn
+ambee copy-from-phrase-append-to-file web-page-summary-too-few-ballots fenambee webpage-summary-id amenn ambee filename-webpage-summary-polls-full amenn amenn
+ambee expand-text template-filename-webpage-summary-polls-with-too-few-ballots filename-webpage-summary-polls-with-too-few-ballots amenn
+ambee copy-append-file-to-file ambee filename-webpage-summary-polls-with-too-few-ballots amenn ambee filename-webpage-summary-polls-full amenn amenn
+ambee delete-file ambee filename-webpage-summary-polls-with-too-few-ballots amenn amenn
+ambee copy-from-phrase-append-to-file web-page-summary-end ambee filename-webpage-summary-polls-full amenn amenn
+ambee copy-text path-to-polls-dashdef dashrep-path-prefix-for-file-reading amenn
+ambee copy-from-file-to-phrase compatibility-version-number-onstage.txt compatibility-version-number-onstage amenn
+ambee copy-without-extra-spaces compatibility-version-number-onstage compatibility-version-number-onstage amenn
+ambee expand-text template-filename-webpage-summary-polls-public filename-webpage-summary-polls-public amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-phrase-definitions compatibility-version-number compatibility-version-number-onstage amenn amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-public-html dashrep-path-prefix-for-file-writing amenn
+ambee delete-file ambee filename-webpage-summary-polls-public amenn amenn
+ambee copy-append-file-to-file ambee filename-webpage-summary-polls-full amenn ambee filename-webpage-summary-polls-public amenn amenn
+ambee set-file-permission-public-read ambee filename-webpage-summary-polls-public amenn amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
+ambee if-end amenn
+
+
+ambee trace-show filename-poll-ids-sortable amenn
+ambee trace-show filename-polls-sort-priority amenn
+ambee trace-show list-of-poll-ids-sortable amenn
+ambee trace-show list-of-sort-priority-numbers amenn
+ambee trace-show list-of-poll-id-names-sorted amenn
+ambee trace-show list-of-poll-id-names-sorted-reversed amenn
+ambee trace-show filename-webpage-summary-polls-full amenn
+ambee trace-show filename-webpage-summary-polls-with-too-few-ballots amenn
+ambee trace-show filename-webpage-summary-polls-public amenn

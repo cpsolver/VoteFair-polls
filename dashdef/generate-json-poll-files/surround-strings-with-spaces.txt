@@ -1,0 +1,6 @@
+ambee copy-text character-space string-paragraphbreakhere-with-spaces amenn
+ambee append-text-no-space string-paragraphbreakhere string-paragraphbreakhere-with-spaces amenn
+ambee append-text-no-space character-space string-paragraphbreakhere-with-spaces amenn
+ambee copy-text character-space string-sentencebreak-with-spaces amenn
+ambee append-text-no-space string-sentencebreak string-sentencebreak-with-spaces amenn
+ambee append-text-no-space character-space string-sentencebreak-with-spaces amenn

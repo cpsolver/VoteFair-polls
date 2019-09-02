@@ -1,0 +1,2 @@
+<tr><td class="tdp"> no-space popularity-rank-as-word possible-word-to-indicate-tie no-space </td><td class="tdc"> no-space candidate-name-or-names no-space </td><td class="tdl"> no-space percentage-to-display no-space </td></tr>
+<new_line>

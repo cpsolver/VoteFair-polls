@@ -1,4 +1,4 @@
 ambee copy-text word-to-use-in-handler question-number amenn
-ambee copy-text choicecount-question fenambee question-number amennfen value-for-unique-id fenambee poll-id-name amenn choice-count amenn
+ambee copy-text choicecount-question fenambee question-number amennfen value-for-unique-id fenambee poll-id amenn choice-count amenn
 ambee expand-text template-ballots-choice-count ballots-choice-count amenn
 ambee append-text ballots-choice-count info-question-choice-counts amenn

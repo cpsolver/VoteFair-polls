@@ -1,0 +1,277 @@
+<style type=text/css>
+/* (c) Copyright 2014-2019 by Fovationz, Inc. at www.NewsHereNow.com */
+
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,code,img,small,strong,dl,dt,dd,ol,ul,li,form,label{
+margin:0;
+padding:0;
+border:0 none;
+outline:0 none;
+vertical-align:baseline;
+}
+
+body{
+background-color:hsl(215,85%,92%);
+background:linear-gradient(270deg,hsla(215,90%,75%,1.0) 0%,hsla(215,100%,90%,1.0) 35%,hsla(215,90%,75%,1.0) 100%);
+text-align:center;
+}
+
+.outr{
+width:80vw;
+background: linear-gradient(90deg,hsla(215,100%,95%,1.0) 0%,hsla(215,100%,90%,1.0) 35%,hsla(215,100%,95%,1.0) 100%);
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:0vw;
+margin-bottom:0vw;
+padding:0.8vw 1vw;
+border:0 none;
+position:relative;
+z-index:1;
+}
+
+p,object,blockquote,pre,address,code,img,small,strong,dl,dt,dd,ol,ul,li,form,label{
+font-family:"Verdana","Tahoma","Calibri","Lucida Grande","Lucida Sans Unicode",sans-serif;
+font-size:17px;
+font-weight:normal;
+line-height:130%;
+}
+
+p{
+text-align:left;
+padding:0.1vw 20vw 0.1vw 20vw;
+margin:1.7vw 0vw 1.7vw 0vw;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family:"Palatino","Georgia","Times",serif;
+font-weight:500;
+line-height:120%;
+margin:1vw 0vw 0.4vw 0vw;
+letter-spacing:0.0rem;
+text-align:center;
+}
+
+h1{
+font-size:26px;
+font-weight:bold;
+letter-spacing:1px;
+}
+
+h2{
+font-size:22px;
+}
+
+h3{
+font-size:20px;
+}
+
+h4{
+font-size:18px;
+}
+
+.smlr{
+font-size:12px;
+}
+
+.emp{
+color:hsl(0,80%,55%);
+font-weight:bold;
+}
+
+a{
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+ol li{
+margin:0.5vw 0vw;
+text-align:left;
+}
+
+ol{
+padding-left:26px;
+}
+
+button{
+cursor:pointer;
+overflow-x:hidden;
+overflow-y:hidden;
+text-align:center;
+font-size:20px;
+padding:0.8vw 2vw;
+margin:1vw 0vw 1vw 0vw;
+border-radius:0.6vw;
+background-color:hsl(53,95%,73%);
+border:1px outset hsla(53,100%,30%,0.4);
+box-shadow:-1px 0px 5px 1px hsl(53,35%,65%);
+}
+
+input[type=submit]{
+cursor:pointer;
+overflow-x:hidden;
+overflow-y:hidden;
+text-align:center;
+font-size:20px;
+padding:0.8vw 2vw;
+margin:1vw 0vw 1vw 0vw;
+border-radius:0.6vw;
+background-color:hsl(53,95%,73%);
+border:1px outset hsla(53,100%,30%,0.4);
+box-shadow:-1px 0px 5px 1px hsl(53,35%,65%);
+}
+
+input[type=text]{
+font-size:17px;
+padding:0.8vw 2vw;
+margin:1vw 0vw 1vw 0vw;
+border-radius:0.6vw;
+}
+
+.dvtbl{
+overflow-x:auto;
+margin-top:1vw;
+margin-bottom:2.5vw;
+}
+
+table{
+background-color:hsla(215, 78%, 82%, 0.68);
+margin:auto;
+padding:0.8vw;
+}
+
+th, td{
+border:0;
+border-collapse:collapse;
+vertical-align:top;
+}
+
+tr:nth-child(odd){
+background-color:hsl(215,54%,88%);
+}
+
+tr:nth-child(even){
+background-color: hsl(215, 70%, 79%);
+}
+
+.tr, .trr{
+background-color:hsl(215,74%,68%);
+font-weight:bold;
+font-size:19px;
+}
+
+.tdph, .tdch, .tdlh, .tdp, .tdc, .tdl, .tdrph, .tdbc, .tdbch, .tdnu, .tdna{
+padding:0.5vw;
+}
+
+.stps{
+margin:0.8vw;
+background-color:hsl(215,100%,83%);
+padding:0.8vw;
+}
+
+.inst{
+padding-bottom:1vw;
+}
+
+.dvstp{
+border:0 none;
+padding:0.8vw 2vw;
+background-color:hsl(215,85%,97%);
+}
+
+.evry, .enc{
+margin-bottom:1vw;
+margin-top:1vw;
+}
+
+.smnt{
+margin-bottom:0.4vw;
+margin-top:0.4vw;
+text-align:center;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px){
+
+.outr{
+width:92vw;
+}
+
+p{
+font-size:3.5vw;
+text-align:left;
+padding:2vw 5vw 2vw 5vw;
+margin:2vw 5vw 2vw 5vw;
+}
+
+h1{
+font-size:5vw;
+}
+
+h2{
+font-size:4.5vw;
+}
+
+.smlr{
+font-size:2vw;
+}
+
+.dvstp{
+width:82vw;
+margin:auto;
+}
+
+ol li{
+margin:2.5vw 0vw;
+line-height:4.5vw;
+font-size:3.1vw;
+}
+
+ol{
+padding-left:4.5vw;
+}
+
+button{
+font-size:3.5vw;
+border-radius:1.6vw;
+margin:2vw 1vw 2vw 1vw;
+padding:1.8vw 3vw;
+}
+
+input[type=text], input[type=submit]{
+font-size:3.5vw;
+overflow-x:visible;
+overflow-y:visible;
+border-radius:1.6vw;
+margin:2vw 1vw 2vw 1vw;
+padding:1.8vw 3vw;
+max-width:70vw;
+}
+
+table{
+line-height:5vw;
+}
+
+.tdph, .tdch, .tdlh, .tdbch, .tdrph{
+font-size:4.2vw;
+}
+
+.tdp, .tdc, .tdl, .tdbc, .tdnu, .tdna{
+font-size:3.5vw;
+}
+
+.outr{
+padding:1.8vw 1vw;
+}
+
+}
+</style>

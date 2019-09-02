@@ -1,2 +1,2 @@
 ambee copy-text word-to-use-in-handler voteinfo-phrase-name-shortened amenn
-ambee copy-text ambee voteinfo-phrase-name-shortened amennfen value-for-unique-id fenambee poll-id-name amenn voteinfo fenambee voteinfo-phrase-name-shortened amenn amenn
+ambee copy-text ambee voteinfo-phrase-name-shortened amennfen value-for-unique-id fenambee poll-id amenn voteinfo fenambee voteinfo-phrase-name-shortened amenn amenn

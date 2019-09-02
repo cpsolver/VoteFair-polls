@@ -1,0 +1,4 @@
+code-open-quote selectext-id-poll-result-row underscore-double-here row-number code-close-quote ,"display", no-space code-open-quote block code-close-quote no-space , no-space
+code-open-quote selectext-id-poll-result-rank underscore-double-here row-number code-close-quote ,"contents", no-space code-open-quote popularity-rank-number code-close-quote no-space , no-space
+code-open-quote selectext-id-poll-result-choice-name underscore-double-here row-number code-close-quote ,"contents", no-space code-open-quote choice-name code-close-quote no-space , no-space
+code-open-quote selectext-id-poll-result-plurality underscore-double-here row-number code-close-quote ,"contents", no-space code-open-quote plurality-rank-number code-close-quote no-space , no-space

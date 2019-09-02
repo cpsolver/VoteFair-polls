@@ -1,0 +1,27 @@
+</head>
+<body>
+<div class="outr">
+<h2>Welcome to the News Here Now</h2>
+<h1>Anti&#45;Vote&#45;Splitting Poll</h1>
+<h2>for the</h2>
+<h1>2020 U.S. Presidential Election</h1>
+<p class="evry">Everyone in the United States is welcome to vote here!</p>
+<h2>Why cast a ballot in this poll?</h2>
+<p>Here, today, you get to fill out a <b>ranked ballot</b> rather than marking just a single candidate as your &ldquo;favorite.&rdquo;&nbsp;
+The extra information is used with <b>pairwise counting</b> to correctly identify both the <b>most popular candidate</b> and the <b>best opposition candidate</b>.</p>
+<div class="stps">
+<h2 class="inst">How to vote:</h2>
+<div class="dvstp">
+<ol>
+<li><b>Click</b> the button below, which takes you to the News Here Now website/webapp.</li>
+<li><b>Click</b> the &ldquo;<span style="color:red">Use my GPS location</span>&rdquo; button if you are using a mobile device and are at home.&nbsp;
+<span style="color:red">Otherwise</span> (either away from home or on a large&#45;screen computer) please enter your <span style="color:red">postal code</span>.&nbsp;
+This step takes you to the list of election districts nearest to your home.</li>
+<li><b>Click</b> on your district's button.&nbsp; Or simply choose the district button in the upper left, and later you can cast a ballot in the correct district (which automatically moves your vote).</li>
+<li><b>Click</b> the numbered buttons to indicate your first choice, second choice, and so on.&nbsp; Then click the &ldquo;Cast Ballot&rdquo; button, which sends your filled&#45;out ballot to the News Here Now newspaper.</li>
+</ol>
+</div>
+<p class="mny">(Why so many buttons to click? To <span style="color:red">stop robots</span> from voting!)</p>
+</div>
+<a href="https://NewsHereNow.com"><button>Go to the News Here Now website/webapp</button></a>
+<h1>Here are the latest poll results</h1>

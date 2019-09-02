@@ -1,7 +1,7 @@
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
-ambee copy-from-file-to-phrase ambee filename-poll-id-name amenn poll-id-name amenn
-ambee copy-without-extra-spaces poll-id-name poll-id-name amenn
+ambee copy-from-file-to-phrase ambee filename-poll-id-name amenn poll-id amenn
+ambee copy-without-extra-spaces poll-id poll-id amenn
 
 
-ambee trace-show poll-id-name amenn
+ambee trace-show poll-id amenn

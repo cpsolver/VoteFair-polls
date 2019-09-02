@@ -1,0 +1,8 @@
+ambee copy-text result-code-positive-integer number-of-ballots amenn
+ambee copy-text number-of-ballots number-of-ballots-for-poll fenambee poll-id amenn amenn
+
+
+combee ****
+ambee trace-show number-of-ballots amenn
+ambee trace-show number-of-ballots-for-poll fenambee poll-id amenn amenn
+**** comenn

@@ -1,0 +1,3 @@
+code-open-quote selectext-id-post-json-action code-close-quote no-space ,"contents", no-space code-open-quote selectext-got-poll code-close-quote no-space ,
+code-open-quote selectext-id-pointer-to-public-poll-result code-close-quote no-space ,"contents", no-space code-open-quote url-to-public-poll-result code-close-quote no-space ,
+code-open-quote selectext-id-button-to-poll-results-external code-close-quote no-space ,"display"," no-space block-or-none-for-button-to-results-external no-space ",

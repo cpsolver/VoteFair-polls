@@ -1,0 +1,2 @@
+<p class="smnt"> no-space summary-note no-space </p>
+<new_line>

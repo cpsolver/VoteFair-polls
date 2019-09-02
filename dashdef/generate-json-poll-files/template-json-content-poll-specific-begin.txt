@@ -1,0 +1,4 @@
+code-open-quote selectext-id-poll-headline code-close-quote no-space ,"contents", code-open-quote headline-value code-close-quote no-space ,
+code-open-quote selectext-id-poll-article code-close-quote no-space ,"contents", code-open-quote article-value code-close-quote no-space ,
+
+combee *** other poll specific values are already available in the browser, so javascript code copies them, to eliminate the delay of re-sending those values *** comenn

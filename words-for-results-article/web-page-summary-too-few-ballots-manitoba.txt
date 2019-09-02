@@ -1,0 +1,7 @@
+<h1>Polls listed below do not yet have at least 4 ballots</h1>
+<p class="enc">If you know anyone in any of these ridings, please encourage them to vote in their riding's poll.</p>
+<div class="dvtbl">
+<table class="ttr">
+<tr class="trr">
+<td class="tdrph">Riding number</td><td class="tdch">Riding name</td><td class="tdbch">Ballot count</td>
+</tr>

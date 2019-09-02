@@ -11,3 +11,10 @@ ambee handle-display-result-one-popularity-rank-with-tie amenn
 ambee if-end amenn
 
 ambee use-handler-with-each-word-in-phrase handle-display-one-plurality-percentage list-of-choice-numbers amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase webpage-summary-id amenn amenn
+ambee handle-preference-level-for-webpage-summary amenn
+ambee if-end amenn
+
+
+ambee trace-show generated-text amenn

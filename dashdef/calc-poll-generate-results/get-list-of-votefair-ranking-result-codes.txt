@@ -11,3 +11,9 @@ ambee copy-and-replace-using-paired-listed-words list-of-votefair-ranking-result
 ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-hyphen empty-text amenn
 ambee copy-and-replace list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes character-asterisk character-space amenn
 ambee copy-without-extra-spaces list-of-votefair-ranking-result-codes list-of-votefair-ranking-result-codes amenn
+
+
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show filename-ranking-numbers amenn
+ambee trace-show list-of-votefair-ranking-result-numbers amenn
+ambee trace-show list-of-votefair-ranking-result-codes amenn

@@ -1,14 +1,13 @@
-ambee copy-text number-of-ballots-for-poll fenambee poll-id-name amenn number-of-ballots amenn
-ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
-ambee delete-file ambee filename-ballot-count amenn amenn
-ambee copy-from-phrase-append-to-file number-of-ballots ambee filename-ballot-count amenn amenn
-combee **** reminder: next action changes path prefix for file reading/writing **** comenn
+ambee copy-text number-of-ballots-for-poll fenambee poll-id amenn number-of-ballots amenn
 ambee get-question-choice-counts amenn
 ambee expand-text template-ballots-starting-info ballots-starting-info amenn
 ambee copy-text ballots-starting-info ballot-info-for-one-poll amenn
-ambee append-text ballot-info-accumulated-for-poll fenambee poll-id-name amenn ballot-info-for-one-poll amenn
+ambee append-text ballot-info-accumulated-for-poll fenambee poll-id amenn ballot-info-for-one-poll amenn
 ambee expand-text template-ballots-ending-info ballots-ending-info amenn
 ambee append-text ballots-ending-info ballot-info-for-one-poll amenn
 ambee copy-without-extra-spaces ballot-info-for-one-poll ballot-info-for-one-poll amenn
 ambee copy-and-replace ballot-info-for-one-poll ballot-info-for-one-poll character-space character-newline amenn
+
+
+ambee trace-show poll-id amenn
+ambee trace-show number-of-ballots amenn

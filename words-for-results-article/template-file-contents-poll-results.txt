@@ -1,6 +1,6 @@
 entry_begin
 <new_line>
-uniqueid poll-id-name
+uniqueid poll-id
 <new_line>
 headline placeholder-for-poll-headline
 <new_line>

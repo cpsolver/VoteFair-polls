@@ -2,3 +2,6 @@ combee **** reminder: choice number is first, then ranking level is second, no o
 ambee copy-text ranking-level popularity-rank amenn
 ambee copy-words-found-in-either-list popularity-rank list-of-popularity-rank-numbers-for-question fenambee question-number amenn list-of-popularity-rank-numbers-for-question fenambee question-number amenn amenn
 ambee append-text choice-number list-of-choice-numbers-at-popularity-rank fenambee popularity-rank amennfen for-question fenambee question-number amenn amenn
+
+
+ambee trace-show list-of-choice-numbers-at-popularity-rank fenambee popularity-rank amennfen for-question fenambee question-number amenn amenn

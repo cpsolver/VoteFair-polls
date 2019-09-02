@@ -1,0 +1,11 @@
+ambee copy-text list-of-choice-numbers-at-popularity-rank fenambee popularity-rank amennfen for-question fenambee question-number amenn list-of-choice-numbers amenn
+ambee clear-phrase candidate-name-or-names amenn
+ambee clear-phrase percentage-to-display amenn
+ambee clear-phrase possible-word-to-indicate-tie amenn
+ambee use-handler-with-each-word-in-phrase handle-poll-append-candidate-name list-of-choice-numbers amenn
+ambee copy-word-at-position list-string-first-second-third-etc popularity-rank-as-word ambee popularity-rank amenn amenn
+ambee expand-text template-webpage-summary-preference-level webpage-preference-level amenn
+ambee append-text-no-space webpage-preference-level output-webpage-ranking-table amenn
+
+
+ambee trace-show webpage-preference-level amenn

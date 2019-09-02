@@ -1,0 +1,22 @@
+combee **** reminder: ballot count plus one and split risk are multiplied, not added, so do not use zero for any value **** comenn
+
+ambee copy-and-replace list-of-plurality-percentages list-of-plurality-percentages-numeric character-percent-sign empty-text amenn
+ambee copy-words-sort-numeric list-of-plurality-percentages-numeric list-of-plurality-percentages-sorted amenn
+ambee copy-words-order-reversed list-of-plurality-percentages-sorted list-of-plurality-percentages-maximum-first amenn
+ambee append-text digit-1 list-of-plurality-percentages-maximum-first amenn
+ambee copy-word-at-position list-of-plurality-percentages-maximum-first plurality-count-maximum 1 amenn
+ambee copy-word-at-position list-of-plurality-percentages-maximum-first plurality-count-third 3 amenn
+ambee put-into-phrase split-risk  ambee numeric-maximum 1 ambee numeric-minus 100 ambee numeric-multiply 2 ambee numeric-minimum 50 ambee numeric-minus ambee plurality-count-maximum amenn ambee plurality-count-third amenn amenn amenn amenn amenn amenn  amenn
+ambee put-into-phrase sort-priority  ambee numeric-multiply ambee split-risk amenn ambee number-of-ballots-plus-one amenn amenn  amenn
+
+
+ambee trace-show split-risk amenn
+ambee trace-show list-of-plurality-percentages amenn
+ambee trace-show list-of-plurality-percentages-numeric amenn
+ambee trace-show list-of-plurality-percentages-sorted amenn
+ambee trace-show list-of-plurality-percentages-maximum-first amenn
+ambee trace-show plurality-count-maximum amenn
+ambee trace-show plurality-count-third amenn
+ambee trace-show split-risk amenn
+ambee trace-show number-of-ballots-plus-one amenn
+ambee trace-show sort-priority amenn

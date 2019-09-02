@@ -1,1 +1,0 @@
-voteinfo-choicenamebrief-question-<question_number>-choice-<choice_number>

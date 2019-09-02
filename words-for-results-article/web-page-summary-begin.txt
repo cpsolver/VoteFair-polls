@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>News Here Now Anti-Vote-Splitting Poll Results</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="News Here Now anti-vote-splitting poll results, elections, election district, riding, ridings, Canada, Canadian" />
+<meta name="copyright" content="Copyright 2019 www.NewsHereNow.com" />
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="distribution" content="global">
+<link rel="shortcut icon" href="newsherenowlogo_en.png" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />

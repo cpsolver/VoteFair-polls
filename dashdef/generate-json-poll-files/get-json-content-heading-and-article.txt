@@ -1,0 +1,24 @@
+ambee put-into-phrase headline-value  not available in this version  amenn
+ambee put-into-phrase article-value  not available in this version  amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
+ambee expand-text template-filename-poll-article filename-poll-article amenn
+ambee copy-text filename-poll-article filename-input amenn
+ambee get-modification-time-for-filename-input amenn
+ambee copy-text modification-time modification-time-for-poll-results-article amenn
+ambee clear-phrase list-of-poll-ids-found amenn
+ambee gather-tagged-info-from-file ambee filename-poll-article amenn list-of-poll-ids-found amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase list-of-poll-ids-found amenn amenn
+ambee copy-and-replace-using-paired-listed-words headline-value-for-unique-id fenambee poll-id amenn headline-value paired-list-for-replacing-numbered-html-entities-with-symbols amenn
+ambee copy-and-replace-using-paired-listed-words headline-value headline-value paired-list-for-replacing-symbols-with-numbered-html-entities amenn
+ambee copy-and-replace-using-paired-listed-words article-value-for-unique-id fenambee poll-id amenn article-value paired-list-for-replacing-numbered-html-entities-with-symbols amenn
+ambee copy-and-replace-using-paired-listed-words article-value article-value paired-list-for-replacing-symbols-with-numbered-html-entities amenn
+ambee if-end amenn
+
+
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show filename-poll-article amenn
+ambee trace-show list-of-poll-ids-found amenn
+ambee trace-show headline-value amenn
+ambee trace-show article-value amenn
+ambee trace-show modification-time-for-poll-results-article amenn

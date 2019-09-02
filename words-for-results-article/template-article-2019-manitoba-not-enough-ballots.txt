@@ -1,0 +1,7 @@
+There are not yet enough ballots to report meaningful results.
+sentence-next
+(Current count is number-of-ballots no-space .)
+sentence-next
+Please tell other voters to vote here at NewsHereNow dot com.
+sentence-next
+Thanks for helping others learn how voting should be done.

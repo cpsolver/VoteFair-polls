@@ -1,4 +1,5 @@
 have_case_number
+have_total_ballot_count
 have_question_number
 have_preference_level
 have_choice_number

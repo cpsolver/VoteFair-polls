@@ -1,0 +1,35 @@
+ambee copy-text word-to-use-in-handler poll-id amenn
+ambee clear-phrase title-value amenn
+ambee clear-phrase pollstatus-value amenn
+ambee clear-phrase statusdisplayed-value amenn
+ambee clear-phrase questioncounttext-value amenn
+ambee clear-phrase poll-id-found amenn
+ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
+ambee expand-text template-filename-poll-specifications filename-poll-specifications amenn
+
+ambee if-yes-begin ambee yes-or-no-file-exists ambee filename-poll-specifications amenn amenn amenn
+ambee gather-tagged-info-from-file ambee filename-poll-specifications amenn poll-id-found amenn
+ambee if-end amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-phrase-definitions poll-id poll-id-found amenn amenn
+ambee copy-text title-value-for-unique-id fenambee poll-id amenn title-value amenn
+ambee copy-text pollstatus-value-for-unique-id fenambee poll-id amenn pollstatus-value amenn
+ambee copy-text statusdisplayed-value-for-unique-id fenambee poll-id amenn statusdisplayed-value amenn
+ambee copy-text questioncounttext-value-for-unique-id fenambee poll-id amenn questioncounttext-value amenn
+ambee if-end amenn
+
+
+ambee trace-show poll-id amenn
+ambee trace-show dashrep-path-prefix-for-file-reading amenn
+ambee trace-show filename-poll-specifications amenn
+ambee trace-show poll-id-found amenn
+ambee trace-show dashrep-gathered-tag-names amenn
+ambee trace-show expanded-text amenn
+ambee trace-show title-value-for-unique-id fenambee poll-id amenn amenn
+ambee trace-show title-value amenn
+ambee trace-show pollstatus-value-for-unique-id fenambee poll-id amenn amenn
+ambee trace-show pollstatus-value amenn
+ambee trace-show statusdisplayed-value-for-unique-id fenambee poll-id amenn amenn
+ambee trace-show statusdisplayed-value amenn
+ambee trace-show questioncounttext-value-for-unique-id fenambee poll-id amenn amenn
+ambee trace-show questioncounttext-value amenn

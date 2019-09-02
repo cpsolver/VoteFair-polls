@@ -1,0 +1,25 @@
+ambee trace-show poll-id amenn
+
+
+ambee expand-text template-file-contents-poll-results-with-placeholders file-contents-poll-results-with-placeholders amenn
+ambee expand-text template-headline fenambee poll-id amenn expanded-generated-words-for-headline amenn
+ambee copy-and-replace expanded-generated-words-for-headline expanded-generated-words-for-headline character-newline character-space amenn
+ambee copy-and-replace file-contents-poll-results-with-placeholders file-contents-poll-results-with-placeholders string-placeholderpollheadline expanded-generated-words-for-headline amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-words less ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 5 amenn amenn amenn
+ambee expand-text template-article fenambee poll-id amennfen not-enough-ballots expanded-generated-words-for-article amenn
+ambee if-end amenn
+
+ambee copy-and-replace expanded-generated-words-for-article expanded-generated-words-for-article character-newline character-space amenn
+ambee copy-and-replace file-contents-poll-results-with-placeholders file-contents-poll-results-with-placeholders string-placeholderpollarticle expanded-generated-words-for-article amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-reading amenn
+ambee copy-text path-to-polls-generated-articles dashrep-path-prefix-for-file-writing amenn
+ambee expand-text template-filename-poll-article filename-poll-article amenn
+ambee delete-file ambee filename-poll-article amenn amenn
+ambee copy-from-phrase-append-to-file file-contents-poll-results-with-placeholders ambee filename-poll-article amenn amenn
+
+
+ambee trace-show filename-poll-article amenn
+ambee trace-show file-contents-poll-results-with-placeholders amenn
+ambee trace-show expanded-generated-words-for-headline amenn
+ambee trace-show expanded-generated-words-for-article amenn

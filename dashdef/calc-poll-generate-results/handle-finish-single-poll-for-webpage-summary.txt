@@ -1,0 +1,26 @@
+ambee copy-and-replace poll-id poll-id-as-words character-underscore character-space amenn
+
+ambee if-no-begin ambee yes-or-no-empty-phrase webpage-summary-id amenn amenn
+ambee copy-poll-info-for-poll-any amenn
+ambee if-end amenn
+
+combee **** reminder: displayed ballot count must exclude leading zero **** comenn
+ambee copy-text number-of-ballots number-of-ballots-plus-one amenn
+ambee numeric-increment number-of-ballots-plus-one amenn
+ambee copy-text number-of-ballots-plus-one number-of-ballots-displayed amenn
+ambee numeric-decrement number-of-ballots-displayed amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
+
+ambee if-yes-begin ambee yes-or-no-same-two-words greater ambee numeric-equal-greater-less-compare ambee number-of-ballots amenn 3 amenn amenn amenn
+ambee handle-finish-single-poll-enough-ballots amenn
+ambee if-else amenn
+ambee handle-finish-single-poll-too-few-ballots amenn
+ambee if-end amenn
+
+
+combee ****
+ambee trace-show compatibility-version-number amenn
+ambee trace-show district-number amenn
+ambee trace-show district-number-displayed amenn
+ambee trace-show number-of-ballots amenn
+**** comenn

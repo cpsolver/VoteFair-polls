@@ -1,0 +1,31 @@
+ambee calculate-sort-priority amenn
+ambee expand-text template-filename-polls-sort-priority filename-polls-sort-priority amenn
+ambee copy-from-phrase-append-to-file sort-priority ambee filename-polls-sort-priority amenn amenn
+ambee expand-text template-filename-poll-ids-sortable filename-poll-ids-sortable amenn
+ambee copy-from-phrase-append-to-file poll-id ambee filename-poll-ids-sortable amenn amenn
+
+
+ambee trace-show voteinfo-summarynote amenn
+
+
+ambee if-no-begin ambee yes-or-no-empty-phrase voteinfo-summarynote amenn amenn
+ambee copy-text voteinfo-summarynote summary-note amenn
+ambee expand-text template-webpage-summary-possible-note webpage-summary-possible-note amenn
+ambee if-else amenn
+ambee clear-phrase webpage-summary-possible-note amenn
+ambee if-end amenn
+
+ambee expand-text template-webpage-summary-single-poll-begin webpage-segment amenn
+ambee append-text-no-space webpage-segment output-webpage-summary-single-poll amenn
+ambee append-text-no-space output-webpage-ranking-table output-webpage-summary-single-poll amenn
+ambee expand-text template-webpage-summary-single-poll-end webpage-segment amenn
+ambee append-text-no-space webpage-segment output-webpage-summary-single-poll amenn
+ambee expand-text template-filename-webpage-summary-single-poll filename-webpage-summary-single-poll amenn
+ambee delete-file ambee filename-webpage-summary-single-poll amenn amenn
+ambee copy-from-phrase-append-to-file output-webpage-summary-single-poll ambee filename-webpage-summary-single-poll amenn amenn
+
+
+combee ****
+ambee trace-show filename-webpage-summary-single-poll amenn
+ambee trace-show filename-poll-ids-sortable amenn
+**** comenn

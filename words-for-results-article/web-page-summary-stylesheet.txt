@@ -15,7 +15,7 @@ background:linear-gradient(270deg,hsla(215,90%,75%,1.0) 0%,hsla(215,100%,90%,1.0
 text-align:center;
 }
 
-.outr{
+.outr,.indxotr{
 width:80vw;
 background: linear-gradient(90deg,hsla(215,100%,95%,1.0) 0%,hsla(215,100%,90%,1.0) 35%,hsla(215,100%,95%,1.0) 100%);
 display:block;
@@ -27,6 +27,10 @@ padding:0.8vw 1vw;
 border:0 none;
 position:relative;
 z-index:1;
+}
+
+.indxotr{
+width:50vw;
 }
 
 p,object,blockquote,pre,address,code,img,small,strong,dl,dt,dd,ol,ul,li,form,label{
@@ -86,13 +90,13 @@ a:hover{
 text-decoration:underline;
 }
 
-ol li{
-margin:0.5vw 0vw;
-text-align:left;
+ol, ul{
+padding-left:26px;
 }
 
-ol{
-padding-left:26px;
+li{
+margin:0.5vw 0vw;
+text-align:left;
 }
 
 button{
@@ -176,10 +180,15 @@ padding:0.8vw;
 padding-bottom:1vw;
 }
 
-.dvstp{
+.dvstp, .dvli{
 border:0 none;
 padding:0.8vw 2vw;
 background-color:hsl(215,85%,97%);
+}
+
+.dvli{
+margin-left:15vw;
+margin-right:15vw;
 }
 
 .evry, .enc{
@@ -190,10 +199,11 @@ margin-top:1vw;
 .smnt{
 margin-bottom:0.4vw;
 margin-top:0.4vw;
-text-align:center;
+text-align:left;
 }
 
-
+.wink { animation: winkframes 1.4s normal infinite linear; }
+@keyframes winkframes { 0% { color: hsla(0,0%,0%,1.0); } 40% { color: hsla(0,0%,0%,1.0); } 60% { color:hsl(0,80%,70%); } 80% { color:hsl(0,80%,70%); } 100% { color: hsla(0,0%,0%,1.0); } }
 
 
 
@@ -202,8 +212,9 @@ text-align:center;
 
 @media only screen and (max-width: 990px){
 
-.outr{
+.outr,.indxotr{
 width:92vw;
+padding:1.8vw 1vw;
 }
 
 p{
@@ -225,18 +236,23 @@ font-size:4.5vw;
 font-size:2vw;
 }
 
-.dvstp{
+.dvstp, .dvli{
 width:82vw;
 margin:auto;
 }
 
-ol li{
+.dvli{
+margin-left:4vw;
+margin-right:4vw;
+}
+
+li{
 margin:2.5vw 0vw;
 line-height:4.5vw;
 font-size:3.1vw;
 }
 
-ol{
+ol, ul{
 padding-left:4.5vw;
 }
 
@@ -267,10 +283,6 @@ font-size:4.2vw;
 
 .tdp, .tdc, .tdl, .tdbc, .tdnu, .tdna{
 font-size:3.5vw;
-}
-
-.outr{
-padding:1.8vw 1vw;
 }
 
 }

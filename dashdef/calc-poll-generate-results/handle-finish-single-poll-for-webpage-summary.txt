@@ -18,6 +18,8 @@ ambee handle-finish-single-poll-too-few-ballots amenn
 ambee if-end amenn
 
 
+ambee trace-show poll-id amenn
+
 combee ****
 ambee trace-show compatibility-version-number amenn
 ambee trace-show district-number amenn

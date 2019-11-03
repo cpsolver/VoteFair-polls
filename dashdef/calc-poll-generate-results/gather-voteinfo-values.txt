@@ -18,10 +18,18 @@ ambee if-no-begin ambee yes-or-no-empty-phrase websumid-value-for-unique-id fena
 ambee copy-text websumid-value-for-unique-id fenambee poll-id amenn webpage-summary-id amenn
 ambee if-end amenn
 
-combee **** todo: remove after confirm above code is working **** comenn
+
+ambee trace-show webpage-summary-id amenn
+ambee trace-show webpage-summary-id amenn
+ambee trace-show webpage-summary-id amenn
+
+
+combee ****
+todo: fully remove after confirm above code is working
 ambee if-yes-begin ambee yes-or-no-same-two-words 1 ambee get-position-of-matching-text string-prefix-manitoba-district poll-id amenn amenn amenn
 ambee put-into-phrase webpage-summary-id  manitoba  amenn
 ambee if-end amenn
+**** comenn
 
 
 ambee trace-show dashrep-path-prefix-for-file-reading amenn

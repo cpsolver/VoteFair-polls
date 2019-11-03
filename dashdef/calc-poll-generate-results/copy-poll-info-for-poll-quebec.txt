@@ -1,1 +1,4 @@
-ambee copy-poll-info-for-poll-canada amenn
+ambee copy-word-at-position poll-id-as-words district-number-displayed 2 amenn
+ambee numeric-increment district-number-displayed amenn
+ambee numeric-decrement district-number-displayed amenn
+ambee copy-text districtname-value-for-unique-id fenambee poll-id amenn district-name-without-number amenn

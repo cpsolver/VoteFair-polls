@@ -4,32 +4,8 @@ ambee put-into-phrase language-choice  en  amenn
 ambee initialize-paths-to-polls-folders amenn
 ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-reading amenn
 ambee copy-text path-to-polls-specifications dashrep-path-prefix-for-file-writing amenn
-ambee copy-from-file-to-phrase ambee filename-list-of-non-local-poll-id-names amenn list-of-non-local-poll-ids amenn
-ambee copy-without-extra-spaces list-of-non-local-poll-ids list-of-non-local-poll-ids amenn
 ambee copy-from-file-to-phrase ambee filename-list-of-local-poll-id-names amenn list-of-local-poll-ids amenn
 ambee copy-without-extra-spaces list-of-local-poll-ids list-of-local-poll-ids amenn
-ambee copy-text list-of-non-local-poll-ids list-of-all-poll-ids amenn
-ambee append-text list-of-local-poll-ids list-of-all-poll-ids amenn
-ambee copy-without-extra-spaces list-of-all-poll-ids list-of-all-poll-ids amenn
-ambee put-into-phrase number-of-poll-buttons-to-display  ambee numeric-minimum 4 ambee get-count-of-words list-of-non-local-poll-ids amenn amenn  amenn
-ambee expand-text template-json-content-begin full-json-content-non-local-poll-buttons amenn
-ambee clear-phrase button-number-for-non-local-polls amenn
-ambee use-handler-with-each-word-in-phrase generate-json-content-for-poll-id list-of-all-poll-ids amenn
-ambee expand-text template-json-content-non-local-poll-buttons-end expanded-text amenn
-ambee append-text-no-space expanded-text full-json-content-non-local-poll-buttons amenn
-ambee expand-text template-json-content-end expanded-text amenn
-ambee append-text-no-space expanded-text full-json-content-non-local-poll-buttons amenn
-ambee expand-text template-filename-json-buttons-polls-non-local filename-json-buttons-polls-non-local amenn
-ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-reading amenn
-ambee copy-text path-to-polls-generated-json dashrep-path-prefix-for-file-writing amenn
-ambee delete-file ambee filename-json-buttons-polls-non-local amenn amenn
-ambee copy-from-phrase-append-to-file full-json-content-non-local-poll-buttons ambee filename-json-buttons-polls-non-local amenn amenn
+ambee use-handler-with-each-word-in-phrase generate-json-content-for-poll-id list-of-local-poll-ids amenn
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee delete-file ambee filename-list-of-webpage-summary-ids amenn amenn
-
-
-combee **** debugging code:
-ambee generate-list-of-all-dashrep-phrases list-of-all-dashrep-phrases amenn
-ambee put-listed-phrase-definitions-into-phrase list-of-all-dashrep-phrases all-definitions amenn
-ambee copy-from-phrase-append-to-file all-definitions ambee filename-json-buttons-polls-non-local amenn amenn
-**** comenn

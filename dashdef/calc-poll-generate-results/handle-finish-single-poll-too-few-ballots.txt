@@ -1,8 +1,6 @@
 ambee expand-text template-webpage-summary-single-poll-too-few-ballots webpage-summary-single-poll-too-few-ballots amenn
-ambee expand-text template-filename-webpage-summary-polls-with-too-few-ballots filename-webpage-summary-polls-with-too-few-ballots amenn
-ambee copy-from-phrase-append-to-file webpage-summary-single-poll-too-few-ballots ambee filename-webpage-summary-polls-with-too-few-ballots amenn amenn
-
-
-combee ****
-ambee trace-show filename-webpage-summary-polls-with-too-few-ballots amenn
-**** comenn
+ambee expand-text template-filename-webpage-summary-single-poll filename-webpage-summary-single-poll amenn
+ambee delete-file ambee filename-webpage-summary-single-poll amenn amenn
+ambee copy-from-phrase-append-to-file webpage-summary-single-poll-too-few-ballots ambee filename-webpage-summary-single-poll amenn amenn
+ambee expand-text template-filename-polls-too-few-ballots filename-polls-too-few-ballots amenn
+ambee copy-from-phrase-append-to-file poll-id ambee filename-polls-too-few-ballots amenn amenn

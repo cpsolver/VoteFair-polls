@@ -1,27 +1,65 @@
 ambee copy-text word-to-use-in-handler webpage-summary-id amenn
-ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+
+
+ambee trace-show webpage-summary-id amenn
+ambee trace-show webpage-summary-id amenn
+
+
 ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee expand-text template-filename-poll-ids-sortable filename-poll-ids-sortable amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee clear-phrase list-of-poll-ids-sortable amenn
 ambee copy-from-file-to-phrase ambee filename-poll-ids-sortable amenn list-of-poll-ids-sortable amenn
 ambee copy-without-extra-spaces list-of-poll-ids-sortable list-of-poll-ids-sortable amenn
-ambee delete-file ambee filename-poll-ids-sortable amenn amenn
 ambee expand-text template-filename-webpage-summary-polls-full filename-webpage-summary-polls-full amenn
 ambee delete-file ambee filename-webpage-summary-polls-full amenn amenn
-ambee copy-from-phrase-append-to-file web-page-summary-begin ambee filename-webpage-summary-polls-full amenn amenn
-ambee copy-from-phrase-append-to-file web-page-summary-stylesheet ambee filename-webpage-summary-polls-full amenn amenn
-ambee copy-from-phrase-append-to-file web-page-summary-intro fenambee webpage-summary-id amenn ambee filename-webpage-summary-polls-full amenn amenn
+ambee expand-text template-filename-webpage-summary-begin filename-webpage-summary-begin amenn
+ambee copy-text path-to-polls-words-for-results-article dashrep-path-prefix-for-file-reading amenn
+
+ambee if-no-begin ambee yes-or-no-file-exists ambee filename-webpage-summary-begin amenn amenn amenn
+ambee copy-text filename-webpage-summary-begin-default filename-webpage-summary-begin amenn
+ambee if-end amenn
+
+ambee copy-append-file-to-file ambee filename-webpage-summary-begin amenn ambee filename-webpage-summary-polls-full amenn amenn
+ambee copy-append-file-to-file ambee filename-webpage-summary-stylesheet amenn ambee filename-webpage-summary-polls-full amenn amenn
+ambee expand-text template-filename-webpage-summary-intro filename-webpage-summary-intro amenn
+
+ambee if-no-begin ambee yes-or-no-file-exists ambee filename-webpage-summary-intro amenn amenn amenn
+ambee copy-text filename-webpage-summary-intro-default filename-webpage-summary-intro amenn
+ambee if-end amenn
+
+ambee copy-append-file-to-file ambee filename-webpage-summary-intro amenn ambee filename-webpage-summary-polls-full amenn amenn
 ambee expand-text template-filename-polls-sort-priority filename-polls-sort-priority amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee clear-phrase list-of-sort-priority-numbers amenn
 ambee copy-from-file-to-phrase ambee filename-polls-sort-priority amenn list-of-sort-priority-numbers amenn
 ambee copy-without-extra-spaces list-of-sort-priority-numbers list-of-sort-priority-numbers amenn
-ambee delete-file ambee filename-polls-sort-priority amenn amenn
 ambee copy-words-rearrange-using-order-sort-numeric list-of-poll-ids-sortable list-of-poll-id-names-sorted list-of-sort-priority-numbers amenn
 ambee copy-words-order-reversed list-of-poll-id-names-sorted list-of-poll-id-names-sorted-reversed amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-writing amenn
 ambee use-handler-with-each-word-in-phrase append-html-for-one-poll-summary list-of-poll-id-names-sorted-reversed amenn
-ambee copy-from-phrase-append-to-file web-page-summary-too-few-ballots fenambee webpage-summary-id amenn ambee filename-webpage-summary-polls-full amenn amenn
-ambee expand-text template-filename-webpage-summary-polls-with-too-few-ballots filename-webpage-summary-polls-with-too-few-ballots amenn
-ambee copy-append-file-to-file ambee filename-webpage-summary-polls-with-too-few-ballots amenn ambee filename-webpage-summary-polls-full amenn amenn
-ambee delete-file ambee filename-webpage-summary-polls-with-too-few-ballots amenn amenn
-ambee copy-from-phrase-append-to-file web-page-summary-end ambee filename-webpage-summary-polls-full amenn amenn
+ambee expand-text template-filename-webpage-summary-too-few-ballots filename-webpage-summary-too-few-ballots amenn
+ambee copy-text path-to-polls-words-for-results-article dashrep-path-prefix-for-file-reading amenn
+
+ambee if-no-begin ambee yes-or-no-file-exists ambee filename-webpage-summary-too-few-ballots amenn amenn amenn
+ambee copy-text filename-webpage-summary-too-few-ballots-default filename-webpage-summary-too-few-ballots amenn
+ambee if-end amenn
+
+ambee copy-append-file-to-file ambee filename-webpage-summary-too-few-ballots amenn ambee filename-webpage-summary-polls-full amenn amenn
+ambee expand-text template-filename-polls-too-few-ballots filename-polls-too-few-ballots amenn
+ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-reading amenn
+ambee clear-phrase list-of-poll-ids-too-few-ballots amenn
+ambee copy-from-file-to-phrase ambee filename-polls-too-few-ballots amenn list-of-poll-ids-too-few-ballots amenn
+ambee copy-without-extra-spaces list-of-poll-ids-too-few-ballots list-of-poll-ids-too-few-ballots amenn
+ambee use-handler-with-each-word-in-phrase append-html-for-one-poll-summary list-of-poll-ids-too-few-ballots amenn
+ambee expand-text template-filename-webpage-summary-end filename-webpage-summary-end amenn
+ambee copy-text path-to-polls-words-for-results-article dashrep-path-prefix-for-file-reading amenn
+
+ambee if-no-begin ambee yes-or-no-file-exists ambee filename-webpage-summary-end amenn amenn amenn
+ambee copy-text filename-webpage-summary-end-default filename-webpage-summary-end amenn
+ambee if-end amenn
+
+ambee copy-append-file-to-file ambee filename-webpage-summary-end amenn ambee filename-webpage-summary-polls-full amenn amenn
 ambee copy-text path-to-polls-dashdef dashrep-path-prefix-for-file-reading amenn
 ambee copy-from-file-to-phrase compatibility-version-number-onstage.txt compatibility-version-number-onstage amenn
 ambee copy-without-extra-spaces compatibility-version-number-onstage compatibility-version-number-onstage amenn
@@ -37,12 +75,21 @@ ambee copy-text path-to-polls-intermediate-content dashrep-path-prefix-for-file-
 ambee if-end amenn
 
 
-ambee trace-show filename-poll-ids-sortable amenn
 ambee trace-show filename-polls-sort-priority amenn
-ambee trace-show list-of-poll-ids-sortable amenn
 ambee trace-show list-of-sort-priority-numbers amenn
+ambee trace-show filename-poll-ids-sortable amenn
+ambee trace-show list-of-poll-ids-sortable amenn
 ambee trace-show list-of-poll-id-names-sorted amenn
 ambee trace-show list-of-poll-id-names-sorted-reversed amenn
 ambee trace-show filename-webpage-summary-polls-full amenn
 ambee trace-show filename-webpage-summary-polls-with-too-few-ballots amenn
 ambee trace-show filename-webpage-summary-polls-public amenn
+ambee trace-show path-to-polls-words-for-results-article amenn
+ambee trace-show filename-webpage-summary-begin amenn
+ambee trace-show filename-webpage-summary-intro amenn
+ambee trace-show filename-webpage-summary-too-few-ballots amenn
+ambee trace-show filename-polls-too-few-ballots amenn
+ambee trace-show list-of-poll-ids-too-few-ballots amenn
+ambee trace-show filename-webpage-summary-end amenn
+ambee trace-show webpage-summary-id amenn
+ambee trace-show webpage-summary-id amenn

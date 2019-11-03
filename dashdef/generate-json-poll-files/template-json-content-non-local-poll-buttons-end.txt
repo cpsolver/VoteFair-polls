@@ -1,7 +1,0 @@
-code-open-quote selectext-id-poll-button-count code-close-quote no-space ,"contents", code-open-quote number-of-poll-buttons-to-display code-close-quote ,
-code-open-quote selectext-id-no-non-local-polls code-close-quote no-space ,"display","none" ,
-code-open-quote selectext-id-getting-non-local-polls code-close-quote no-space ,"display","none",
-code-open-quote selectext-id-no-local-polls-here code-close-quote no-space ,"display","none",
-code-open-quote selectext-id-no-local-polls-if-no-location code-close-quote no-space ,"display","none",
-code-open-quote selectext-id-icon-found-local-polls code-close-quote no-space ,"display","none",
-code-open-quote selectext-id-post-json-action code-close-quote no-space ,"contents", no-space code-open-quote selectext-got-non-local-polls code-close-quote no-space ,

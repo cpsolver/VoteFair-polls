@@ -11,3 +11,5 @@ ambee copy-and-replace ballot-info-for-one-poll ballot-info-for-one-poll charact
 
 ambee trace-show poll-id amenn
 ambee trace-show number-of-ballots amenn
+ambee trace-show ballots-starting-info amenn
+ambee trace-show ballot-info-for-one-poll amenn

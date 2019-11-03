@@ -1,3 +1,5 @@
 voteinfo-code-for-case-number 1
+voteinfo-code-for-request-votefair-representation-rank
+voteinfo-code-for-number-of-representation-levels-to-compute  2
 info-question-choice-counts
 voteinfo-code-for-start-of-all-vote-info

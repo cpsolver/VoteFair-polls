@@ -1,2 +1,0 @@
-code-open-quote selectext-id-no-non-local-polls code-close-quote no-space ,"display","none",
-code-open-quote selectext-id-getting-non-local-polls code-close-quote no-space ,"display","none" ,

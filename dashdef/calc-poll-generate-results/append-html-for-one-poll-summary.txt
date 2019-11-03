@@ -5,4 +5,3 @@ ambee copy-append-file-to-file ambee filename-webpage-summary-single-poll amenn 
 
 
 ambee trace-show filename-webpage-summary-single-poll amenn
-ambee trace-show filename-webpage-summary-polls-full amenn

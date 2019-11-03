@@ -1,1 +1,1 @@
-json_info_poll_ no-space poll-id no-space _version_ no-space compatibility-version-number no-space .txt
+json_info_poll_ no-space poll-id no-space _ no-space compatibility-version-number no-space .txt
